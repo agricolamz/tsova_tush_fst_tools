@@ -1,0 +1,43 @@
+# -------------------------------------------------------------------------
+# NUMERALS
+# 
+# -------------------------------------------------------------------------
+
+PATTERNS
+
+Numerals[-four_numerals]
+agrCl Numerals[four_numerals]
+
+LEXICON agrCl
+
+<m><sg>:v
+<m><pl>:b
+<f><sg>:j
+<f><pl>:d
+<d>:d
+<j>:j
+<b>:b
+
+LEXICON Numerals
+
+cħa                                                         # один; one
+ši                                                          # два; two
+qo                                                          # три; three
+dʕivɁ:ʕivɁ[four_numerals]                                   # четыре; four
+pxi                                                         # пять; five
+jetx                                                        # шесть; six
+vorɬ                                                        # семь; seven
+barɬ                                                        # восемь; eight
+iss                                                         # девять; nine
+it't'                                                       # десять; ten
+cħait't'                                                    # одиннадцать; eleven
+šiit't'                                                     # двeннадцать; twelve
+qoit't'                                                     # триннадцать; thirteen
+dʕevɁet't':ʕevɁet't'[four_numerals]                         # четырнадцать; fourteen
+pxiit't'                                                    # пятнадцать; fifteen
+jetxet't'                                                   # шестнадцать; sixteen
+vorɬet't'                                                   # семнадцать; seventeen
+barɬet’t’                                                   # восемнадцать; eighteen
+t'q'exc'                                                    # девятнадцать; nineteen
+t'q'a                                                       # двадцать; twenty
+
