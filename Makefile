@@ -2,6 +2,9 @@
 
 all: bbl_analyzer.hfstol bbl_generator.hfstol
 
+substring_search: bbl_generator.hfst
+	@echo "$(INPUT)" | hfst-regexp2fst | hfst-compose-intersect bbl_generator.hfst | hfst-invert | hfst-fst2strings | awk -f linguistic_view.awk | tr ':' '\n'
+
 glossing: bbl_analyzer.hfstol
 	echo "$(INPUT)" | hfst-proc -x bbl_analyzer.hfstol | awk -f linguistic_view.awk
 
@@ -15,7 +18,7 @@ remove_hyphen.hfst: remove_hyphen.twol
 	hfst-twolc -q $< -o $@
 
 bbl_generator.hfst: bbl_nouns.hfst
-	mv bbl_nouns.hfst $@
+	cp bbl_nouns.hfst $@
 
 bbl_%_merged.hfst: bbl_%.hfst bbl_%_twol.hfst
 	hfst-compose-intersect $^ -o $@
@@ -36,7 +39,7 @@ mkherduli_transcription: mkh2la.awk
 	echo "$(INPUT)" | awk -f $^
 
 clean:
-	rm -f *.hfst *.hfstol bbl_nouns.lexd
+	rm -f *.hfst *.hfstol
 
 requirements:
 	curl -s https://apertium.projectjj.com/apt/install-nightly.sh | sudo bash
