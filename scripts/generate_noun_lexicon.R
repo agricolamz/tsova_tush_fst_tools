@@ -32,10 +32,12 @@ read_csv("data/kk_merged.csv",
   unnest_longer(pl) |> 
   mutate(gen.sg = str_split(gen.sg, "/")) |> 
   unnest_longer(gen.sg) |> 
+  mutate(gen.sg = str_split(gen.sg, ", ")) |> 
+  unnest_longer(gen.sg) |> 
   mutate(lemma_la = str_split(lemma_la, ", ")) |> 
   unnest_longer(lemma_la) |> 
-  mutate(declension_class = case_when(str_detect(gen.sg, "ujⁿ$") & str_detect(lemma_la, "ŏ$") ~ "[o-stem]",
-                                      str_detect(gen.sg, "ujⁿ$") & str_detect(lemma_la, "ŭ$") ~ "[u-stem]",
+  mutate(declension_class = case_when(str_detect(gen.sg, "ujⁿ$") & str_detect(lemma_la, "ŏ$") ~ "[o_stem]",
+                                      str_detect(gen.sg, "ujⁿ$") & str_detect(lemma_la, "ŭ$") ~ "[u_stem]",
                                       TRUE ~ "")) |> 
   relocate("gen.sg", .before = "pl") |> 
   relocate("declension_class", .before = "gen.sg") ->
@@ -62,7 +64,7 @@ result |>
   na.omit() |> 
   mutate(gen.sg_m = str_remove(gen.sg, "(uj)?ⁿ"),
          transducer_lexicon_group = "Nouns_Obl",
-         transducer_entry = str_c(lemma_la, "<N><", gender_la, ">><gen><sg>:", gen.sg_m, declension_class),
+         transducer_entry = str_c(lemma_la, "<N><", gender_la, "><obl>:", gen.sg_m, declension_class),
          transducer_entry = str_pad(transducer_entry, side = "right", width = 50),
          transducer_entry = str_c(transducer_entry, "# ", en, "; ", ka, "; ", ru)) |> 
   select(transducer_entry, transducer_lexicon_group) |> 

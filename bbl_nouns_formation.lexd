@@ -1,0 +1,43 @@
+# -------------------------------------------------------------------------
+# NOUNS
+# -------------------------------------------------------------------------
+
+PATTERNS
+
+Nouns_Abs
+Nouns_Obl[-o_stem,-u_stem] [>:>] Inflection
+(Nouns_Obl[o_stem] | Nouns_Obl[u_stem]) [:uj] [>:>] Inflection[diff_for_o_u]
+Nouns_Obl[u_stem] [u:] [>:>] Inflection[-diff_for_o_u]
+Nouns_Obl[o_stem] [o:] [>:>] Inflection[-diff_for_o_u]
+
+LEXICON Inflection
+
+<gen>:ⁿ[diff_for_o_u]
+<dat>:n[diff_for_o_u]
+<erg>:v
+<ins>:v
+<cont>:x
+<lat>:
+<ad><lat>:go
+<inter><lat>:lo
+<in><lat>:i
+<ess>:ħ
+<ad>><ess>:go>ħ
+<inter>><ess>:lo>ħ
+<in>><ess>:i>ħ
+<abl>:ren
+<ad>><abl>:go>ren
+<inter>><abl>:lo>ren
+<in>><abl>:i>ren
+<trans>:ğ
+<ad>><abl>:go>ğ
+<inter>><abl>:lo>ğ
+<in>><abl>:i>ğ
+<term>:mciⁿ
+<ad>><abl>:go>mciⁿ
+<inter>><abl>:lo>mciⁿ
+<in>><abl>:i>mciⁿ
+<apud><ess>:ciⁿ
+<apud><abl>:xiⁿ
+<apud><lat>:guiħ
+

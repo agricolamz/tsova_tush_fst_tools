@@ -1,13 +1,44 @@
-.DEFAULT_GOAL: requirements
+.PHONY: all
 
-.PHONY: requirements forms clean
+all: bbl_analyzer.hfstol bbl_generator.hfstol
 
-requirements:
-	@curl -s https://apertium.projectjj.com/apt/install-nightly.sh | sudo bash
-	sudo apt-get install hfst lexd
+glossing: bbl_analyzer.hfstol
+	echo "$(INPUT)" | hfst-proc -x bbl_analyzer.hfstol | awk -f linguistic_view.awk
+
+bbl_%.hfstol: bbl_%.hfst
+	hfst-fst2fst -O $< -o $@
+
+bbl_analyzer.hfst: bbl_generator.hfst remove_hyphen.hfst
+	hfst-compose-intersect $^ | hfst-invert -o $@
+
+remove_hyphen.hfst: remove_hyphen.twol
+	hfst-twolc -q $< -o $@
+
+bbl_generator.hfst: bbl_nouns.hfst
+	mv bbl_nouns.hfst $@
+
+bbl_%_merged.hfst: bbl_%.hfst bbl_%_twol.hfst
+	hfst-compose-intersect $^ -o $@
+
+bbl_%_twol.hfst: bbl_%.twol
+	hfst-twolc -q $< -o $@
+
+bbl_%.hfst: bbl_%.lexd
+	lexd $< | hfst-txt2fst -o $@
+
+bbl_%.lexd: bbl_%_formation.lexd bbl_%_lexicon.lexd
+	cat $^ > $@
 
 transcribe_latin: la2mkh.awk
-	@echo "$(INPUT)" | awk -f $^
+	echo "$(INPUT)" | awk -f $^
 
 transcribe_mkherduli: mkh2la.awk
-	@echo "$(INPUT)" | awk -f $^
+	echo "$(INPUT)" | awk -f $^
+
+clean:
+	rm -f *.hfst *.hfstol bbl_nouns.lexd
+
+requirements:
+	curl -s https://apertium.projectjj.com/apt/install-nightly.sh | sudo bash
+	sudo apt-get install hfst lexd
+
