@@ -29,10 +29,10 @@ bbl_%.hfst: bbl_%.lexd
 bbl_%.lexd: bbl_%_formation.lexd bbl_%_lexicon.lexd
 	cat $^ > $@
 
-transcribe_latin: la2mkh.awk
+latin_transcription: la2mkh.awk
 	echo "$(INPUT)" | awk -f $^
 
-transcribe_mkherduli: mkh2la.awk
+mkherduli_transcription: mkh2la.awk
 	echo "$(INPUT)" | awk -f $^
 
 clean:
