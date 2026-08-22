@@ -38,7 +38,11 @@ read_csv("data/kk_merged.csv",
   unnest_longer(lemma_la) |> 
   mutate(declension_class = case_when(str_detect(gen.sg, "ujⁿ$") & str_detect(lemma_la, "ŏ$") ~ "[o_stem]",
                                       str_detect(gen.sg, "ujⁿ$") & str_detect(lemma_la, "ŭ$") ~ "[u_stem]",
-                                      TRUE ~ "")) |> 
+                                      TRUE ~ ""),
+         declension_class = if_else(str_detect(gender_la, "(VB)|(JD)"),
+                                      str_c(declension_class, "[human]"),
+                                      declension_class),
+         declension_class = str_replace(declension_class, "\\]\\[", ",")) |> 
   relocate("gen.sg", .before = "pl") |> 
   relocate("declension_class", .before = "gen.sg") ->
   result
