@@ -49,7 +49,7 @@ korcʼil	korcʼil.N.DD
 
 ```
 
-- In order to see all possible forms for some lemma you can run a substring search. In order to do it, all symbols should be separated by spaces, all tags should be surrounded by `%<...%>` (*pħit'* means 'frog'):
+- In order to see all possible forms for some lemma you can run a substring search. In order to do it, all symbols should be separated by spaces, all tags should be surrounded by `%<...%>` (kʼnat means ‘boy’ or ‘son’):
 
 ```{bash}
 !make -s substring_search INPUT="k ʼ n a t %<N%> ?*"
