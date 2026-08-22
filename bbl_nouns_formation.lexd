@@ -5,13 +5,13 @@
 PATTERNS
 
 Nouns_Abs
-Nouns_Obl[-o_stem,-u_stem,-human] (([>:>] Inflection[-lat,-human]) | (Inflection[lat]))
-Nouns_Obl[-o_stem,-u_stem,human] (([>:>] Inflection[-lat,-nonhuman]) | (Inflection[lat]))
+Nouns_Obl[-o_stem,-u_stem,-human] (([>:>] Inflection[-lat,-human]) | (Inflection[null_morphemes]))
+Nouns_Obl[-o_stem,-u_stem,human] (([>:>] Inflection[-lat,-nonhuman]) | (Inflection[null_morphemes]))
 (Nouns_Obl[o_stem] | Nouns_Obl[u_stem]) [:uj] [>:>] Inflection[diff_for_o_u]
-Nouns_Obl[u_stem,-human] [u:] (([>:>] Inflection[-diff_for_o_u,-lat,-human]) | Inflection[lat])
-Nouns_Obl[o_stem,-human] [o:] (([>:>] Inflection[-diff_for_o_u,-lat,-human]) | Inflection[lat])
-Nouns_Obl[u_stem,human] [u:] (([>:>] Inflection[-diff_for_o_u,-lat,-nonhuman]) | Inflection[lat])
-Nouns_Obl[o_stem,human] [o:] (([>:>] Inflection[-diff_for_o_u,-lat,-nonhuman]) | Inflection[lat])
+Nouns_Obl[u_stem,-human] [u:] (([>:>] Inflection[-diff_for_o_u,-lat,-human]) | Inflection[null_morphemes])
+Nouns_Obl[o_stem,-human] [o:] (([>:>] Inflection[-diff_for_o_u,-lat,-human]) | Inflection[null_morphemes])
+Nouns_Obl[u_stem,human] [u:] (([>:>] Inflection[-diff_for_o_u,-lat,-nonhuman]) | Inflection[null_morphemes])
+Nouns_Obl[o_stem,human] [o:] (([>:>] Inflection[-diff_for_o_u,-lat,-nonhuman]) | Inflection[null_morphemes])
 
 LEXICON Inflection
 
@@ -21,14 +21,18 @@ LEXICON Inflection
 <dat>:n[diff_for_o_u]
 <ins>:v
 <cont>:x
-<lat>:[lat]
+<lat>:[null_morphemes]
 <ad><lat>:gŏ
 <inter><lat>:lŏ
 <in><lat>:i
 <ess>:ħ
+<ess>:[null_morphemes]
 <ad>><ess>:go>ħ
+<ad><ess>:go
 <inter>><ess>:lo>ħ
+<inter><ess>:lo
 <in>><ess>:i>ħ
+<in><ess>:i
 <abl>:ren
 <ad>><abl>:go>ren
 <inter>><abl>:lo>ren
