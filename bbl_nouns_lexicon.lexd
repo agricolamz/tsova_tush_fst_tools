@@ -1111,12 +1111,15 @@ huv<N><DD>:huv                                    # seed, (fruit) stone; თე�
 LEXICON Nouns_Obl
 
 aag<N><JD><obl>:age[human]                        # grandmother; ბებია, ბებო; бабушка
+aalĕ<N><VB><obl>:aale[human]                      # lord, sir; ბატონი; господин
 aasĕ<N><DD><obl>:ase                              # calf; ხბო; теленок
 ab<N><DD><obl>:abe                                # pill; აბი; пилюля
 abno<N><JJ><obl>:abn                              # bath; აბანო; баня
 abžontʼ<N><DD><obl>:abžontʼe                      # stirrup; უზანგი, ავჟანდა; стремя
+agvistʼŏ<N><B><obl>:agvistʼ[o_stem]               # August; აგვისტო; август
 agur<N><JJ><obl>:aŭgre                            # brick; აგური; кирпич
 adgil<N><JJ><obl>:ajdgle                          # place; ადგილი; место
+adl<N><DD><obl>:adle                              # yard, meter; ადლი; аршин
 atxĕ<N><JJ><obl>:atxe                             # whetstone; სალესავი; точило, брусок
 akʼvaⁿ<N><DD><obl>:akʼvne                         # cradle; აკვანი; колыбель, люлька
 akʼidŏ<N><DD><obl>:akʼid[o_stem]                  # string of fruit; აკიდო; связка (кистей винограда)
@@ -1126,9 +1129,12 @@ alisxeⁿ<N><BD><obl>:alisxene                      # poplar; ალვის �
 almas<N><DD><obl>:almase                          # diamond; ალმასი; алмаз
 alubal<N><BD><obl>:aluble                         # sour cherry (tree, fruit); ალუბალი (ხე, ნაყოფი); вишня (плод и дерево)
 alčuqʼ<N><DD><obl>:alčqʼe                         # shelter, cover, tent; ალაჩოყი, კარავი; шалаш, юрта
+alx<N><JJ><obl>:alxe                              # half-starved horse; ალხი; захудалая лошадь
+ambuj<N><J><obl>:amb                              # stories, speech; ამბები; საუბარი; вести, известия, беседа
 amind<N><BD><obl>:aminde                          # weather; ამინდი; погода
 ampsoⁿ<N><DD><obl>:ajmpsne                        # comrade, (drinking, eating) buddy; ამფსონი; сотоварищ (за выпивкой, едой)
 amkar<N><JJ><obl>:amkre                           # worshop, guild; ამქარი; цех
+aⁿ<N><DD><obl>:ani                                # stiffness, rheumatism; რევმატიზმით დახუთვა (დაიხუთება); колотье, ревматизм
 anapor<N><DD><obl>:anapore                        # cassock, surplice; ანაფორა; ряса
 angloz<N><DD><obl>:ajnglze                        # angel; ანგელოზი; ангел
 angriš<N><JJ><obl>:ajngrše                        # bill, score, account; ანგარიში; счет
@@ -1139,12 +1145,17 @@ ankʼraɁŏ<N><JJ><obl>:ankʼraɁ[o_stem]              # glass; შუშა; с
 ancʼl<N><DD><obl>:ancʼle                          # danewort; ანწლი; вонючая бузина
 apʼelatʼ<N><DD><obl>:apʼeltʼe                     # épaulette; ეპოლეტი; полет
 apʼelsiⁿ<N><DD><obl>:ajpʼelsne                    # orange; ფორთოხალი; апельсин
+araqʼ<N><DD><obl>:arqʼe                           # vodka; არაყი; водка
 arz<N><DD><obl>:arze                              # written complaint; არზა; пошение
+arkʼum<N><BD><obl>:ajrkʼme                        # mkhali; მხალი; мхали (овощное блюдо)
+aršiⁿ<N><DD><obl>:ajršne                          # arshin (71 cm); არშინი; аршин
 arcʼiv<N><DD><obl>:ajrcʼve                        # eagle; არწივი; орел
 arx<N><JJ><obl>:arxe                              # canal, ditch; არხი; канава
 astʼiⁿ<N><JJ><obl>:ajstʼne                        # small adze; ხელეჩო; вексель
 asŏ<N><JJ><obl>:as[o_stem]                        # leather strap; თასმა; ремень
 asŏ<N><JJ><obl>:as[o_stem]                        # body part; ასო (სხეულის ნაწილი); член (тела)
+atʼam<N><DD><obl>:atʼmi                           # peach; ატამი; персик (плод и дерево)
+atʼam<N><DD><obl>:atʼme                           # peach; ატამი; персик (плод и дерево)
 atʼlas<N><DD><obl>:atʼlase                        # satin; ატლასი; атлас (шелковая материя)
 atʼqʼ<N><DD><obl>:atʼqʼe                          # bow (archery); მშვილდი; лук
 auz<N><BD><obl>:avze                              # basin; აუზი; бассейн
@@ -1152,14 +1163,22 @@ aptar<N><DD><obl>:ajptre                          # hyena; აფთარი; �
 aptiekʼa<N><JJ><obl>:aptekʼe                      # apothecary, drug store; აფთიაქი; аптека
 apicer<N><VB><obl>:apicre[human]                  # officer; ოფიცერი; офицер
 apuš<N><BD><obl>:ajpše                            # lie, deception; ტყუილი, სიცრუე; ложь, обман
+apšrul<N><D><obl>:apšrule                         # silk; აბრეშუმი; шелк
+akim<N><VB;JD><obl>:ajkmi[human]                  # doctor; ექიმი; врач
+akim<N><VB;JD><obl>:ajkme[human]                  # doctor; ექიმი; врач
 aklam<N><DD><obl>:ajklme                          # camel; აქლემი; верблюд
 ağeb<N><DD><obl>:ağbe                             # Shrovetide (last days before lent); აღება (დიდი მარხვის წინა დღეები); загованье
 ašuğ<N><VB><obl>:ajšğe[human]                     # ashugh, minstrel; აშუღი; ашуг
 axŏ<N><JJ><obl>:ax[o_stem]                        # forest clearing; ახო; чащоба
+ajmrikʼ<N><D><obl>:ajmrikʼe                       # calico; მიტკალი; миткаль
+ajrkel<N><VB><obl>:ajrkle[human]                  # church hierarch; არქიელი; архиерей
 ajrɬ<N><BD><obl>:arɬo                             # uncastrated ram, stud ram; ყოჩი, ერკემალი; баран производитель
 ajqʼĭ<N><BD><obl>:ajqʼe                           # smooth rock, slate; სიპი ქვა, ფიქალი; шифер, сланец
+ajħĭ<N><D><obl>:ajħi                              # gut; ნაწლავი; кишка
 aqseb<N><DD><obl>:aqsbe                           # Easter; აღდგომა; пасха
 babŏ<N><VB><obl>:bab[o_stem,human]                # grandfather; პაპა; дедушка
+bag<N><BD><obl>:bage                              # newly planted vine; ბაგა (პატარა ვენახი); маленький виноградник
+badag<N><DD><obl>:bajdge                          # (boiled) grape juice; ბადაგი; виноградное сусло
 bader<N><DD><obl>:badre                           # child; ბავშვი, შვილი; дитя, ребенок
 badriǯaⁿ<N><DD><obl>:badriǯne                     # tomato; aubergine; პამიდორი; ბადრიჯანი; помидор; баклажан
 baz<N><DD><obl>:baze                              # salt pot; სამარილე; солонка
@@ -1167,18 +1186,22 @@ bazar<N><JJ><obl>:bazre                           # market, bazaar; ბაზა
 bakʼ<N><BD><obl>:bakʼe                            # paddock; ბაკი; შემოღობილი ადგილი ბალახისათვის; огороженое место для стоянки скота; огороженное место для травы
 bakʼal<N><BD><obl>:bakʼle                         # piece, scrap; morsel; ნაჭერი, ნაკუწი; ლუკმა; кусок, обрезок, лоскут; кусок (пищи)
 bal<N><BD><obl>:bale                              # cherry; ბალი; черешня
+balb<N><DD><obl>:balbaj                           # mallow (flower); ბალბა; мальва, просвирник
 bališ<N><BD><obl>:bajlše                          # pillow; ბალიში; подушка
 balkʼoⁿ<N><BD><obl>:balkʼne                       # balcony; აივანი; балкон
 bambaɁŏ<N><BD><obl>:bambaɁ[o_stem]                # hemp; ბანგი; зелень
 band<N><JJ><obl>:bande                            # rag; ჩვარი, ძონძი; тряпка
+baž<N><BD><obl>:baže                              # tax, duty; ბაჟი; пошлина, налог
 barat<N><DD><obl>:barte                           # card; ბარათი; записка
 barg<N><JJ><obl>:barge                            # stuff, baggage; ბარგი; вещи
 bardaⁿ<N><BD><obl>:bardne                         # bale (of wool, cotton); ბარდანა; большой мешок (для шерсти)
+barkʼal<N><BD><obl>:barkʼla                       # wool strands, tufted wool; კვირტი (უვარგისი მატყლი); клок плохой шерсти
 barlim<N><BD><obl>:bajrlme                        # butter-churning stick; ბარნელა (რძის სადღვებელი ჯოხი); мутовка (для сбивания масло)
 batʼ<N><DD><obl>:batʼe                            # goose; ბატი; гусь
 batʼaⁿ<N><BD><obl>:batʼne                         # floor, ground; იატაკი (მიწის, თიხის); пол (глиняный)
 batʼr<N><JD><obl>:batʼre[human]                   # lip; ტუჩი; губа
 bak<N><BJ><obl>:bake                              # mouth; პირი; уста, рот
+bakmaz<N><DD><obl>:bakmaze                        # grape juice boiled with honey; ბაქმაზი; бекмес
 bağ<N><BD><obl>:bağe                              # melon garden/patch; საზამთროს და ნესვის ბაღი; бахча
 bağdad<N><DD><obl>:bağdade                        # silk headscarf; ბაღდადი; большой шелковый платок
 bağlinǯŏ<N><DD><obl>:bağlinǯ[o_stem]              # bedbug; ბაღლინჯო; клоп
@@ -1189,35 +1212,49 @@ bašmakʼ<N><BD><obl>:bajšmakʼe                     # footwear, shoe; ფე�
 baštʼ<N><BD><obl>:baštʼe                          # (winter) stall; გომური; зимний земляной хлев, коровник
 bašport<N><DD><obl>:bašporte                      # passport; პასპორტი; паспорт
 bačdoⁿ<N><BD><obl>:bačdone                        # small-built horse; ბაჩა ცხენი; малорослая лошадь
+bacʼar<N><DD><obl>:bacʼre                         # woolen thread; მატყლის ძაფი, ბაწარი; пряжа, шерстяная нитка
 baǯ<N><VB><obl>:baǯe[human]                       # brother-in-law; ქვისლი; свояк
+baħ<N><BD><obl>:baħe                              # burdock; ბირკა, ბირკავა; лопух, репейник
 bajdaɁŏ<N><DD><obl>:bajdaɁ[o_stem]                # bowl; ბადია; чаша, миска
 bajrax<N><BD><obl>:bajrxe                         # flag, banner; ბაირაღი; знамя
 bajqʼlaɁŏ<N><DD><obl>:bajɁlaɁ[o_stem]             # newly planted tree; ბაყილა, ნორჩი ხე; молодое деревцо
 bajčʼaɁŏ<N><DD><obl>:bajčʼaɁ[o_stem]              # leveret (young hare); ბაჭია; зайчонок
 bajqlaɁŏ<N><DD><obl>:bajqlaɁ[o_stem]              # young corvid; ბახალა; птенец вороны
 baqč<N><BD><obl>:baqče                            # orchard; ხეხილის ბაღი, საკარმიდამო მიწის ნაკვეთი ხეხილით, ვენახით, ბოსტნით; фруктовый сад, приусадебный участок земли с садом, виноградник, огород
+bed<N><B><obl>:bede                               # fate; ბედი; судьба, счастье
 beled<N><VB><obl>:belde[human]                    # leader; ბელადი; вождь, предводить
 beⁿ<N><BD><obl>:bene                              # nest, lair, den; ბუდე, ბუნაგი; гнездо, берлога
 bek<N><BD><obl>:beke                              # hill; ბექობი; выступ на склоне горы
 beğel<N><BD><obl>:beğle                           # granary; ბეღელი; житница
+beǯ<N><JJ><obl>:beǯe                              # hair; თმა; волосы
 bejbaɁŏ<N><JD><obl>:bejbaɁ[o_stem,human]          # midwife; ბებია ქალი; повивальная баба
 bejtal<N><VB><obl>:bejtle[human]                  # vet; ბეითალი; ветеринар
+bza<N><JJ><obl>:bzaj                              # box tree; ბზა; самшит
 bze<N><JJ><obl>:bze                               # chaff, bran; ბზე; саман
+bzob<N><D><obl>:bzobe                             # Palm Sunday; ბზობა; вербное воскресенье
 bibilŏ<N><JJ><obl>:bibil[o_stem]                  # bird's comb, crest; ბიბილო; гребешок (у птиц)
 bikʼoⁿ<N><BD><obl>:bikʼvne                        # wood torch, rushlight; კვარი, ბიკვანი; лучина
 bilet<N><DD><obl>:bilte                           # ticket; ბილეთი, მოწმობა; билет, удостоверение
 bilikʼ<N><BD><obl>:bilkʼe                         # path; ბილიკი; тропинка
+bind<N><BD><obl>:binde                            # twilight, dusk; ბინდი; сумерки
 birkʼ<N><BD><obl>:birkʼe                          # burr; ბირკა, ბირკი; репейник
+birkʼaɁŏ<N><DD><obl>:birkʼaɁ[o_stem]              # mummer; ბერიკა; ряженый
+bistʼ<N><BD><obl>:bistʼe                          # end; წვერი, ბოლო, ნაჭერი, ნაწყვეტი (საბლისა, მანდილისა...); кончик, кусочек (веревки, косынки)
 biʒĭ<N><VB><obl>:biʒi[human]                      # uncle; ბიძა (მამის ძმა); дядя (брат отца)
+bluv<N><VB,JD><obl>:bluve[human]                  # mute person; მუნჯი; немой
+bo<N><BD><obl>:b                                  # garlic; ნიორი; чеснок
 bogir<N><BD><obl>:bujgre                          # planked bridge; ბოგირი; мостик
 bod<N><JJ><obl>:bode                              # snare, noose, trap; მახე; силок
 bodiš<N><BD><obl>:bujdše                          # apology; ბოდიში; извинение
+bott<N><BD><obl>:batti                            # scabbard; ქარქაში; ножны
 botl<N><JJ><obl>:botla                            # bottle; ბოთლი; бутылка
+botx<N><BD><obl>:batxi                            # work (mostly woman's); საქმე (ძირითადად ქალისა); работа (в основном женская)
 bolkʼaɁŏ<N><DD><obl>:bolkʼaɁ[o_stem]              # bastard cabbage; ბოლოკა; репница
 bolŏ<N><BD><obl>:bol[o_stem]                      # end; bird's tail; ბოლო; ბოლო (ფრინველისა); конец, окончание; хвост (птицы)
 borkʼil<N><BD><obl>:bujrkʼle                      # shackles, fetters; ბორკილი; кандалы, оковы
 bos<N><BD><obl>:basi                              # colour; ფერი; цвет
 bostʼnaɁŏ<N><DD><obl>:bostʼnaɁ[o_stem]            # mole cricket; ბოსტანა; навозный жук
+botʼ<N><BD><obl>:batʼi                            # dough; ცომი; тестo
 botʼ<N><DD><obl>:batʼi                            # goat kid; თიკანი; козленок
 boğur<N><BD><obl>:bujğre                          # stake; პალო; кол
 boqʼ<N><BD><obl>:boqʼe                            # wooden planks; ბოყვი; деревянное приспособление для укрепления досок
@@ -1225,7 +1262,11 @@ bočkʼ<N><BD><obl>:bočkʼe                          # wooden barrel; კას
 boʒ<N><BD><obl>:boʒe                              # post, pillar; ბოძი; столб
 bojtʼĭ<N><DD><obl>:botʼ                           # billy-goat; ბოტი; нехолощенный козел
 boqč<N><BD><obl>:boqče                            # type of cloth; ბოხჩა; узелок
+bžantʼ<N><J><obl>:bžantʼe                         # marsh; ბჟანტი; травянистое место со стоячей водой (вроде болота)
 brag<N><DD><obl>:brage                            # pickaxe; წერაქვი; кирка
+brinǯ<N><BD><obl>:brinǯe                          # rice; ბრინჯი; рис
+briqʼv<N><VB;JD><obl>:briqʼve[human]              # fool; ბრიყვი; невежа
+brol<N><DD><obl>:brole                            # chrystal; ბროლი; хрусталь
 brʒeⁿ<N><VB><obl>:brʒene[human]                   # sage, wise man; ბრძენი; мудрец
 bubukʼ<N><DD><obl>:bubkʼe                         # flower; ყვავილი; цветок
 butt<N><BD><obl>:batti                            # moon; month; მთვარე; თვე; луна, месяц
@@ -1236,40 +1277,55 @@ bultk<N><BD><obl>:bultke                          # bush, shrub; ბუჩქი
 bulğ<N><BD><obl>:bulğe                            # drill; ხრახნი, ბურღი; винт, бурав
 bumbul<N><JJ><obl>:bumble                         # plumage, fluff; ბუმბული; перья, пух
 bunag<N><DD><obl>:bunge                           # dishes; ჭურჭელი; посуда
+buneb<N><J><obl>:bunbe                            # nature; ბუნება; природа
 burt<N><BD><obl>:burte                            # ball; ბურთი; мяч
 busurbaⁿ<N><VB><obl>:busurbane[human]             # muslim; მუსლიმანი; мусульманин
+buc<N><J><obl>:buce                               # grass; type of grass; ბალახი; ერთგვარი ბალახია; трава; вид травы
+bux<N><B><obl>:buxe                               # cow's vagina; დედალი საქონელის სასქესო ორგანო; половой орган самки
 buxar<N><BD><obl>:buxre                           # hearth, fireplace; ბუხარი; камин
+buħ<N><BD><obl>:buħe                              # fight, brawl, war; ჩხუბი, ომი; драка, война, ссора
 bʕagal<N><BD><obl>:bʕagle                         # wart; მეჭეჭი; бородавка
 bʕakʼaⁿ<N><JJ><obl>:bʕakʼne                       # leather bag (for cheese); გუდა; кожаный мешок (для сыра)
 bʕaⁿ<N><BD><obl>:bʕane                            # point, top; წვერი (ხანჯლისა, ხისა...); острие, верхушка (кинжала, дерева)
 bʕarkʼ<N><BJ><obl>:bʕarkʼa                        # eye; buttonhole, noose; თვალი; თვალი (ოთახი); თვალი, ყულფი, კილო; глаз; количество комнат; петля
 bʕarcʼoⁿ<N><DD><obl>:bʕarcʼ                       # mule; ჯორი; мул
+bʕastʼ<N><BD><obl>:bʕatʼe                         # hogweed; დიყი; борщевик
 bʕog<N><BD><obl>:bʕoge                            # clod, lump; ბელტი; ყამირი; пласт (привспашке)ж целина
 bʕokʼ<N><BD><obl>:bʕokʼe                          # billy-goat; ბოტი, ვაცი; козел
 bʕorcʼ<N><BD><obl>:bʕarcʼi                        # wolf; მგელი; волк
 bʕorcʼ<N><BD><obl>:bʕarcʼi                        # wolf; მგელი; волк
+gag<N><JJ><obl>:gage                              # bread (in child's language); ბაბა, პური - ბავშვის ენაზე; детское название хлеба
 gag<N><BD><obl>:gage                              # bunch, cluster; მტევანი; кисть (винограда...)
 gagaⁿ<N><JJ><obl>:gagne                           # egg; კვერცხი; яйцо
 gagaɁŏ<N><DD><obl>:gagaɁ[o_stem]                  # stomach, belly; მუცელი, კუჭი; живот, желудок
 gav<N><DD><obl>:gave                              # skein; შულო; в длину намотанные нитки
+gaz<N><BD><obl>:gaze                              # tongs, pincers; გაზი; клещи
 gazaⁿ<N><BD><obl>:gazne                           # goat; თხა; коза, козел
 gakʼŏ<N><DD><obl>:gakʼ[o_stem]                    # clasp, buckle; ბალთა; металлическая застежка (для ремней)
 galaⁿ<N><JJ><obl>:galne                           # ball, clump; გუნდა; ком, комок
 gangal<N><BD><obl>:gangle                         # small bell; ეჟვანი, ზანზალაკი; колокольчик
 ganqʼop<N><VB,JD><obl>:ganqʼope[human]            # blood relative; განაყოფი, განაყარი, ნათესავი (ერთი გვარისა); родственник (однофамилец)
 ganǯiⁿ<N><DD><obl>:ganǯine                        # cupboard; განჯინა; стенной шкаф
+gasadevar<N><JJ><obl>:gasadevre                   # grazing land; გასადევარი, საძოვარი; пастбище
 gasğeb<N><BD><obl>:gasğebe                        # key; გასაღები; ключ
+gaǯ<N><JJ><obl>:gaǯe                              # gypsum, plaster; გაჯი; гажа
 gaŭgŭ<N><BJ><obl>:gag[u_stem]                     # knee; მუხლი; колено
 gebs<N><BD><obl>:gebse                            # week; კვირა; неделя
+gercʼ<N><DD><obl>:gercʼe                          # weapon; იარაღი; оружие
 gvritʼ<N><BD><obl>:gvritʼe                        # turtle dove; გვრიტი; горлица
 girgam<N><BD><obl>:girgme                         # crown; გვირგვინი; корона, венец
 glex<N><DD><obl>:glexe                            # peasant; გლეხი; крестьянин
 gogbaxujnĭ<N><VB><obl>:gobaxujni[human]           # field watcher; მეველე (გარს მსვლელი); сторож (полевой), кругом обходящий
 gogbičʼaɁo<N><DD><obl>:gogbičʼaɁ                  # oriole; მოლაღური, "ბიჭო გოგია"; иволга
+gogird<N><DD><obl>:gogirde                        # sulphur; გოგირდი; сера
 godor<N><BD><obl>:godre                           # basket; გოდორი; корзина
+gol<N><JJ><obl>:gole                              # honeycomb; ფიჭა; соты
 gomur<N><BD><obl>:gujmre                          # (winter) stall; გომური; хлев, скотник, стойло
+goⁿ<N><JJ><obl>:gone                              # mind, intellect; ჭკუა, გონება; ум, рассудок
+gor<N><DD><obl>:gore                              # family name; გვარი, გვარეულობა; фамилия
 gord<N><DD><obl>:gorde                            # short, hiltless sword; გორდა, გორდახმალი; особый вид шашки
 gornakʼ<N><JJ><obl>:gornkʼe                       # hill; გორა, გორაკი; маленькая гора, холм
+gorč<N><JJ><obl>:gorče                            # pestle; ფილთაქვა; пест
 gočʼ<N><DD><obl>:gočʼe                            # piglet; გოჭი; поросенок
 gox<N><JJ><obl>:goxe                              # boulder; გოხი; большой камень
 goǯ<N><JJ><obl>:goǯe                              # inch; გოჯი; длина от сустава большого пальца до конца ногтя
@@ -1279,17 +1335,31 @@ gugaɁŏ<N><JJ><obl>:gugaɁ[o_stem]                  # puppet, doll; თოჯ�
 gutaⁿ<N><JJ><obl>:gutne                           # plough; გუთანი; плуг
 gulab<N><BD><obl>:gulbe                           # dessert pear; გულაბი; груша (особый сорт)
 gumbat<N><BD><obl>:gumbate                        # cupola, dome; გუმბათი; купол
+gujznaqʼ<N><DD><obl>:gujznaqʼe                    # chopped nuts in honey; გოზინაყი; гозинаки (сладость из мёда и орехов или миндаля)
 gujšaɁŏ<N><DD><obl>:gujšaɁ[o_stem]                # small dog; გოშია; собачка, собачонка
+dabağ<N><DD><obl>:dabğe                           # shooting; ყაბახი; стрельба в цель
+dabağ<N><VB><obl>:dabğe[human]                    # knacker, skinner; დაბაღი; кожевник, скорняк
+dabxana<N><JJ><obl>:dabxane                       # knacker's yard; დაბახანა (ტყავეულობის ქარხანა); кожевенный завод
 dad<N><VB><obl>:dade[human]                       # father; მამა; отец
+dav<N><JJ><obl>:dave                              # dispute, argument; დავა; спор
 davtar<N><DD><obl>:davtre                         # ledger, register; დავთარი; журнал, приходно-расходная книга
+davl<N><DD><obl>:davlaj                           # trophy; დავლა; трофей
+datteⁿ<N><DD><obl>:dattne                         # melted butter; ერბო; масло топленое
+dalak<N><VB><obl>:dalke[human]                    # barber; დალაქი; цирюльник, парикмахер
+dažar<N><DD><obl>:dažre                           # grass; საძოვარი ბალახი, მოლი; трава для пастбища
 daraǯ<N><DD><obl>:darǯe                           # guard; დარაჯი, ყარაული; сторож, сторожиха
 dard<N><BD><obl>:darde                            # sadness, sorrow; დარდი; печаль, забота
+darvaⁿ<N><JJ><obl>:darvne                         # small stream; პატარა რუ; канавка
+darišxaⁿ<N><DD><obl>:darišxne                     # arsenic; დარიშხანა; мышьяк
 dap<N><JJ><obl>:dape                              # drum; დაფი, დოლი; барбан
+daʒm<N><DD><obl>:daʒme                            # relative, kin; ნათესავი; родственник
 daxaɁŏ<N><DD><obl>:dax[o_stem]                    # snowcock; შურთხი; горная индейка
 de<N><DD><obl>:deni                               # day; დღე; день
 dedupal<N><DD><obl>:deduple                       # weasel; სინდიოფალა, დედოფალა; ласка
 dev<N><DD><obl>:deve                              # devil, monster; დევი; див, сказочный великан
+değ<N><DD><obl>:değe                              # body; ტანი, სხეული; тело, туловище
 dianbeg<N><VB><obl>:dianbege[human]               # judge; დიამბეგი; судья (в царское время)
+dib<N><B><obl>:dibe                               # oath; ფიცი; клятва, присяга
 dikʼ<N><DD><obl>:dikʼe                            # axe; ცული; топор
 dir<N><JJ><obl>:dire                              # beam, fundamental support; დირე; бревно, фундамент деревянного дома
 direktʼor<N><VB;JD><obl>:direktʼore[human]        # director, head; დირექტორი; директор
@@ -1298,25 +1368,34 @@ dol<N><DD><obl>:dole                              # lambing time; დოლი; 
 doⁿ<N><BD><obl>:done                              # horse; ცხენი; лошадь
 donlov<N><VB><obl>:donlove[human]                 # rider; ცხენოსანი; всадник
 dos<N><DD><obl>:dasi                              # firewood; შეშა; дрова
+dopx<N><DD><obl>:dapxi                            # sweat; ოფლი; пот
 došak<N><DD><obl>:doške                           # mattress; დოშაქი, ლეიბი; матрац, тюфяк
 doxkʼ<N><DD><obl>:daxkʼi                          # cloud; ღრუბელი; облако
 doxtʼur<N><VB,JD><obl>:dujxtʼre[human]            # doctor, medic; ექიმი; врач
+doħkotʼŏ<N><JJ><obl>:doħkotʼ[o_stem]              # face; პირისახე, პირი; лицо
 duz<N><JJ><obl>:duze                              # steppe, grasslands; ტრამალი; степь
 durkʼ<N><DD><obl>:durkʼe                          # cask, bucket; კასრი (ხისა); ведро (деревяное)
 dukaⁿ<N><DD><obl>:dukne                           # inn; დუქანი; лавка, духан
 dušaqʼ<N><DD><obl>:dušqʼe                         # horse's rope fetter; დუშაყი; ремневое приспособление (при ковке лошади)
 duxkʼaⁿ<N><DD><obl>:duxkʼne                       # belt, girdle; სარტყელი (ქალისა განიერი, მოქსოვილი); пояс (женский широкий, вязанный)
 dʕaɁ<N><DD><obl>:dʕaɁe                            # wound, cut; იარა, ნაიარევი, ჭრილობა; рана, рубец от раны, шрам
+dʕeɁ<N><DD><obl>:dʕeɁe                            # liver; ღვიძლი; печень
+eⁿ<N><DD><obl>:ene                                # shadow, shade; ჩრდილი, გრილო; тень
+endrŏ<N><JJ><obl>:endr[o_stem]                    # (dyer’s) madder; ენდრო; марена
 enʒlaɁŏ<N><DD><obl>:enʒlaɁ[o_stem]                # Caucasian spring crocus; ენძელა; мерендера
 epʼiskʼopʼoz<N><VB><obl>:epʼiskʼopʼoze[human]     # bishop; ეპისკოპოსი; епископ
+erdŏ<N><J><obl>:erd[o_stem]                       # passage downwards; სახლიდან გომურში, სარდაფში ჩასასვლელი; отверстие из дому вниз (в хлев, подал...)
 ešmaɁŏ<N><DD><obl>:ešmaɁ[o_stem]                  # devil; ეშმაკი; черт
 ečʼv<N><JJ><obl>:ečʼve                            # suspicion, doubt; ეჭვი; подозрение
 eǯip<N><VB><obl>:eǯipe[human]                     # best man; ეჯიბი; шафер жениха
+vad<N><JJ><obl>:vade                              # time, term, period; ვადა; срок
 vaz<N><BD><obl>:vaze                              # vine; ვაზი; лоза
 val<N><DD><obl>:vale                              # debt; ვალი; долг
+važkʼac<N><VB><obl>:važkʼace[human]               # grown man, good man; ვაჟკაცი; молодец, храбрец
 varang<N><JJ><obl>:varange                        # shoulder; მხარი; плечо
 vard<N><DD><obl>:varde                            # rose; ვარდი; роза
 varcl<N><BD><obl>:varcle                          # wooden kneading trough; ვარცლი; корыто, лоток
+vastʼ<N><DD><obl>:vastʼe                          # notch cut in cattle ears; სერი; метка (на ушах овец, лошадей)
 vašŏ<N><VB><obl>:vaše[human]                      # brother; ძმა; брат
 vačʼar<N><VBJD><obl>:vačʼre[human]                # merchant; ვაჭარი; торговец, торговщица
 vajraɁŏ<N><DD><obl>:vajraɁ[o_stem]                # pullet, hen not yet in lay; ვარია; молодая курица
@@ -1325,19 +1404,25 @@ venaq<N><JJ><obl>:venqe                           # vine; ვენახი; в
 verx<N><DD><obl>:verxe                            # pelican; ვარხვი; пеликан
 verxv<N><DD><obl>:verxve                          # aspen; ვერხვი; осина
 vekil<N><VB><obl>:vejkle[human]                   # lawyer; ვექილი; адвокат
+veǯ<N><J><obl>:veǯe                               # furniture; ავეჯი; мебель, вещи
 vir<N><DD><obl>:vire                              # donkey; ვირი, სახედარი; осел
 virqʼančʼ<N><DD><obl>:virqʼančʼe                  # cricket; ჭრიჭინა, კალია; сверчок, кузнечик
 voħ<N><V><obl>:vaħi                               # boy, son; ვაჟი, ვაჟიშვილი, ბიჭი; мальчик,сын
+zad<N><JJ><obl>:zade                              # fault; ზადი; недостаток, порок
+zakʼuškʼ<N><DD><obl>:zakʼuškʼe                    # breakfast; საუზმე; закуска
 zar<N><DD><obl>:zare                              # plaited cane, wicker; ლასტი; плетеные (из прутьев)
 zarbazaⁿ<N><JJ><obl>:zarbazne                     # cannon; ზარბაზანი; пушка
+zarŏ<N><J><obl>:zar[o_stem]                       # currant; მოცხვარი (როჭოს ყურძენა); смородина
 zak<N><DD><obl>:zake                              # young buffalo; ზაქი; буйволенок
 zaqʼqʼ<N><DD><obl>:zaqʼqʼe                        # crack, split; ბზარი; трещина
 zecʼar<N><DD><obl>:zecʼre                         # bedspread; ზეწარი; простыня
 zvar<N><JJ><obl>:zvare                            # large vinyard; ზვარი; большой виноградник
+zitev<N><JJ><obl>:zitve                           # dowry; მზითევი; приданое
 zod<N><JJ><obl>:zode                              # bar, block; ზოდი; слиток
 zokʼŏ<N><JJ><obl>:zokʼ[o_stem]                    # mushroom; სოკო; гриб
 zol<N><JJ><obl>:zole                              # stripe, band, strip; ზოლი; полоса
 zonar<N><JJ><obl>:zonre                           # shoelace; ზონარი, ყაითანი; шнурок
+zortʼ<N><DD><obl>:zortʼe                          # strip on garment, braid, tape; ზორტი; тесьма
 zok<N><JJ><obl>:zoke                              # beak; ნისკარტი; клюв
 zğva<N><JJ><obl>:zğvaj                            # sea; ზღვა; море
 tabax<N><DD><obl>:tabxe                           # sheet of paper; თაბახი (საწერი ქაღალდის ფურცელი); лист
@@ -1345,6 +1430,10 @@ tabcʼ<N><DD><obl>:tabcʼe                          # spear, javelin; შუბ�
 tavad<N><VB><obl>:tavde[human]                    # prince; თავადი; князь
 tavtav<N><BD><obl>:tavtave                        # ear (of wheat/corn); თავთავი; колос
 tavl<N><DD><obl>:tavle                            # horse's stable; თავლა, საჯინიბო; конюшня
+tatt<N><DD><obl>:tatte                            # rowan, mountain ash; ცირცელი; рябина
+tatraɁŏ<N><DD><obl>:tatraq[o_stem]                # boiled grape juice thickened with wheat flour; თათარა; густой кисель из виноградного сока и муки
+tatriv<N><V><obl>:tatrive                         # Azeri, Turk, Tatar; თათარი; татарин
+tambakŏ<N><DD><obl>:tambak[o_stem]                # tobacco; თამბაქო; табак
 tangir<N><DD><obl>:tajngre                        # copper kettle, pot; თანგირა; медный котел, кастрюля
 tant<N><DD><obl>:tante                            # ant; ჭიანჭველა; муровей
 taob<N><JJ><obl>:taobe                            # generation; თაობა; поколение
@@ -1352,57 +1441,84 @@ tarazŏ<N><DD><obl>:taraz[o_stem]                  # spirit level; თარა�
 tarŏ<N><DD><obl>:tar[o_stem]                      # shelf, tray; თარო; полка
 tağ<N><JJ><obl>:tağe                              # arch, vault; კამარა, თაღი; свод
 taŭbŭ<N><DD><obl>:taŭbni                          # gelded ram; ჭედილა; холощеный баран, валух
+teberval<N><BD><obl>:tebervale                    # February; თებერვალი; февраль
+tel<N><DD><obl>:tele                              # elm; თელა; вяз
+tem<N><JJ><obl>:teme                              # community, clan; თემი; община
 tep<N><JJ><obl>:tepe                              # hill; ბორცვი; холм
+tibatvĕ<N><BD><obl>:tibatve                       # June; თიბათვე, ივნისი; июнь
+tivtikʼ<N><JJ><obl>:tivtikʼe                      # down, fluff; თივთიკი; пух
+titber<N><DD><obl>:titbre                         # brass; თითბერი; латунь
+tiq<N><JJ><obl>:tiqe                              # clay; თიხა; глина
 tokʼ<N><DD><obl>:tokʼe                            # rope; თოკი; веревка
 tol<N><DD><obl>:tole                              # porch, veranda; დერეფანი; сени
 tornĕ<N><BD><obl>:torne                           # tandoor, bread oven; თონე; тоня (грузинская печь)
 top<N><JJ><obl>:tope                              # roll (of cloth); თოფი (ქსოვილისა); кипа (материи)
 top<N><JJ><obl>:tope                              # roll (of cloth); თოფი (ქსოვილისა); кипа (материи)
 toq<N><DD><obl>:toqe                              # hoe, mattock; თოხი; мотыга, тяпка
+triml<N><DD><obl>:trimle                          # sumach; თრიმლი; желтиник
 tut<N><JJ><obl>:tute                              # mulberry; თუთა; шелковица, тутовое дерево, плод
+tumaⁿ<N><JJ><obl>:tumne                           # tuman, ten roubles; თუმანი; десятирублевка
 tung<N><JJ><obl>:tunge                            # tunga, gallon, 4.5 litres; თუნგი; тунга (мера жидкостей прибл 1\3 ведра), медный кувшин для воды
 tur<N><DD><obl>:ture                              # sword; ხმალი; шашка, сабля
+tuǯ<N><DD><obl>:tuǯe                              # cast iron; თუჯი; чугун
+tuj<N><DD><obl>:t                                 # spit; ფურთხი; плевок
 txovar<N><DD><obl>:txovre                         # beggar; მათხოვარი; нищий
 txril<N><JJ><obl>:txrile                          # ditch, canal; თხრილი, არხი; ров, канал
 igav<N><JJ><obl>:igve                             # parable, tale; იგავი; притча, пословица
 indur<N><DD><obl>:indre                           # turkey; ინდაური; индюк, индейка
 iskʼampʼ<N><BD><obl>:iskʼampʼe                    # flick of fingers; წკიპურტი; щeлчок
+isrim<N><JJ><obl>:isrime                          # unripe grape; ისრიმი; неспелый виноград
 iš<N><JJ><obl>:ašare                              # voice, sound, melody; ხმა, ჰანგი; голос, звук, мотив, мелодия
 iš<N><JJ><obl>:ašare                              # voice, sound, melody; ხმა, ჰანგი; голос, звук, мотив, мелодия
 ixv<N><DD><obl>:ixve                              # duck; იხვი; утка
 ija<N><DD><obl>:ijaj                              # violet; ია; фиалка
+ijabŏ<N><BD><obl>:ivbe                            # gelding; იაბო (დაკოდილი ცხენი); мерин (холощенная лошадь)
+ijazm<N><DD><obl>:ijazme                          # holy water; აიაზმა; освященная вода
 ijasamaⁿ<N><DD><obl>:ijasamne                     # lilac; იასამანი; сирень
 jašŏ<N><JD><obl>:jaše[human]                      # sister; და; сестра
+jeg<N><DD><obl>:jege                              # beer; ლუდი; пиво
 jett<N><B><obl>:atti                              # cow, cattle; ფური; корова
 jexkʼ<N><JJ><obl>:axkʼri                          # comb; სავარცხელი; гребень, гребешок
+jol<N><JJ><obl>:ali                               # hay; თივა; сено
 jopʼqʼ<N><JJ><obl>:apʼqʼri                        # ash; ნაცარი; зола
 jopʼqʼ<N><JJ><obl>:apʼqʼri                        # ash; ნაცარი; зола
+jopx<N><J><obl>:jopxe                             # heat, warmth; სიცხე, სითბო; жара, теплота
 joħ<N><JD><obl>:jaħi[human]                       # woman, girl, daughter; ქალი, ქალიშვილი, გოგონა; девочка, дочь
+joħkotʼŏ<N><JJ><obl>:joħkotʼ[o_stem]              # face; პირისახე; лицо
 jub<N><JJ><obl>:jube                              # awl; სადგისი; шило
 juxa<N><JJ><obl>:juxaj                            # foot, base (of mountains, tree); ძირი (მთისა, ხისა...); основание, подножие
 juħ<N><JJ><obl>:juħe                              # face; სახე, პირისახე; лицо
 jʕeɁ<N><JJ><obl>:jʕeɁe                            # spindle; თითისტარი; веретено
+lav<N><DD><obl>:lave                              # snow; თოვლი; снег
 lavaš<N><BD><obl>:lavše                           # lavash bread; ლავაში; лаваш (особый вид хлеба)
+latt<N><DD><obl>:latte                            # rubbish, dirt; ნაგავი; сор, мусор
 lam<N><BD><obl>:lamu                              # mountain; მთა; гора
 lamp<N><DD><obl>:lampe                            # lamp; ლამპა; лампа
 lapʼ<N><BD><obl>:lapʼe                            # stairs, ladder; კიბე; лестница
 larkʼ<N><DJ><obl>:larkʼe                          # ear; ყური; ухо
+lapaⁿ<N><DD><obl>:lapne                           # wing-nut (tree); ლაფანი (ხე); лапина, крылорешник (дерево)
 laqʼuč<N><JJ><obl>:laŭqʼče                        # (fish) gills; ლაყუჩი; жабры
+lax<N><JJ><obl>:laxe                              # dung, manure; ნეხვი, ნაკელი; навоз, помет
 laħ<N><BD><obl>:laħe                              # snake; გველი; земля
 leib<N><DD><obl>:lejbe                            # mattress; ლეიბი; тюфяк
 lekʼ<N><VB><obl>:lekʼe[human]                     # Daghestanian; ლეკი; лезгин
 leks<N><BD><obl>:lekse                            # poem; ლექსი; стих
+leğv<N><DD><obl>:leğve                            # fig; ლეღვი; фиговое дерево, инжир
 leqʼv<N><DD><obl>:leqʼve                          # quail; მწყერი; перепел
+leš<N><JJ><obl>:leše                              # corpse, carrion; ლეში; падаль
 limoⁿ<N><DD><obl>:limne                           # lemon; ლიმონი; лимон
 litʼtʼor<N><DD><obl>:litʼtʼre                     # strainer, filter; საწურავი; ситечко, цедилка
 lišaⁿ<N><DD><obl>:lišne                           # sign, target, mark; ნიშანი; знак, мишень
 lič<N><DD><obl>:liče                              # splinter; ხიწვი, ხიჭვი; заноза
 lod<N><BD><obl>:lode                              # large rock; ლოდი; большой камень, валун
 lom<N><DD><obl>:lome                              # lion; ლომი; лев
+lopʼr<N><JJ><obl>:lopʼre                          # slime, slobber; lazybones, good-for-nothing; ლოპრი, ლორწო; ზარმაცი, უქნარა, უხეირო; слизь; лентяй, бездельник
 lokŏ<N><JJ><obl>:lok[o_stem]                      # catfish; ლოქო; сом
 locŏ<N><JJ><obl>:loc[o_stem]                      # blessing, prayer; spell; ლოცვა; შელოცვა; молитва; заговор
 lul<N><JJ><obl>:lule                              # pipe, tube, gun barrel; ლულა, მილი; ствол, труба
 kʼab<N><JJ><obl>:kʼabe                            # dress; კაბა; платье
+kʼabdŏ<N><DD><obl>:kʼabd[o_stem]                  # harrow board; კაბდო; доска бороновая
+kʼav<N><DD><obl>:kʼave                            # wheat; ხორბალი; пшеница, пшеничное зерно
 kʼav<N><DD><obl>:kʼave                            # hook, pot hook, stick with hook on end; კავი; палка с крючковатым концом
 kʼazarm<N><DD><obl>:kʼazarme                      # barracks; კაზარმა; казарма
 kʼakʼab<N><BD><obl>:kʼakʼbe                       # partridge; კაკაბი; куропатка
@@ -1415,15 +1531,19 @@ kʼaltaɁŏ<N><JJ><obl>:kʼalte                       # slope, field; კალ�
 kʼaltaɁŏ<N><JJ><obl>:kʼaltaɁ[o_stem]              # slope, field; კალთა; поле
 kʼalmax<N><JJ><obl>:kʼalmaxe                      # trout; კალმახი; форель
 kʼaloš<N><BB><obl>:kʼaloše                        # galosh, overshoe; კალოში; галоша
+kʼaltʼ<N><JJ><obl>:kʼaltʼe                        # dried cottage cheese, curds; ხაჭო (მოდუღებული დოს, ან შრატის მონახადი); творог (снятый с кипяченого пахтанья и сыворотки)
 kʼaltʼoz<N><VB><obl>:kʼaltʼoze[human]             # bricklayer, stonemason; კალატოზი; каменщик
 kʼalŏ<N><JJ><obl>:kʼal[o_stem]                    # threshing floor; კალო; гумно
+kʼam<N><DD><obl>:kʼame                            # dill; კამა; укроп
 kʼambeč<N><BD><obl>:kʼamče                        # buffalo; კამეჩი; буйвол
 kʼamod<N><BD><obl>:kʼamode                        # chest of drawers; კომოდი; комод
 kʼampetʼkʼ<N><DD><obl>:kʼampetʼkʼa                # sweet; კამფეტი; конфета
+kʼanap<N><DD><obl>:kʼanpe                         # hemp; კანაფი; конопля, веревочка
 kʼankʼel<N><DD><obl>:kʼankʼle                     # iconostasis; კანკელი; иконостас
 kʼančʼ<N><DJ><obl>:kʼančʼe                        # talon, claw; კლანჭი; коготь
 kʼarav<N><BD><obl>:kʼarve                         # tent; კარავი; палатка
 kʼarandaš<N><DD><obl>:kʼarandaše                  # pencil; ფანქარი; карандаш
+kʼarak<N><DD><obl>:kʼarke                         # butter; კარაქი; сливочное масло
 kʼart<N><DD><obl>:kʼarte                          # muscle; კუნთი; мускул
 kʼarkʼlŏ<N><JJ><obl>:kʼarkʼl[o_stem]              # droppings; კურკლი, ცურცლი; помет
 kʼartʼopil<N><BD><obl>:kʼartʼujple                # potato; კარტოფილი; картофель
@@ -1445,10 +1565,13 @@ kʼex<N><JJ><obl>:kʼexe                            # saddle, saddle-tree; უ�
 kʼver<N><JJ><obl>:kʼvere                          # hammer; კვერი, ჩაქუჩი; молот, молоток
 kʼvirtʼ<N><BJ><obl>:kʼvirtʼe                      # lump of wool; კვირტი; комочек шерсти
 kʼikʼ<N><BD><obl>:kʼikʼe                          # bead; მძივი; бусы
+kʼilŏ<N><JJ><obl>:kʼil[o_stem]                    # dialect, tone, way of talking; კილო (ლაპარაკისა, სიმღერისა...); тон, интонация, напев
+kʼir<N><J><obl>:kʼire                             # (builder's) lime; კირი; известь
 kʼitʼr<N><JJ><obl>:kʼitʼre                        # cucumber; კიტრი; огурец
 kʼlitʼ<N><BD><obl>:kʼlitʼe                        # lock; კლიტე; замок
 kʼmatʼ<N><BD><obl>:kʼmatʼe                        # cliff; კლდე; скала
 kʼnat<N><VB><obl>:kʼnate[human]                   # boy, son; ბიჭი, ვაჟიშვილი; мальчик, сын
+kʼod<N><B><obl>:kʼode                             # measure of grain; კოდი; три руда (мера сыпучих тел)
 kʼotxŏ<N><BD><obl>:kʼotx[o_stem]                  # wooden vessel; კათხა; деревянная чаша
 kʼokʼ<N><JJ><obl>:kʼokʼe                          # sheepskin; ტყაპუჭი; овчиный тулуп
 kʼolop<N><BD><obl>:kʼolpe                         # box; კოლოფი; коробка
@@ -1468,10 +1591,13 @@ kʼraotʼ<N><BD><obl>:kʼraotʼe                      # bed; საწოლი;
 kʼrux<N><DD><obl>:kʼruxe                          # broody hen; კრუხი; наседка
 kʼubŏ<N><BD><obl>:kʼub[o_stem]                    # coffin; კუბო; гроб
 kʼuv<N><JJ><obl>:kʼuve                            # tortoise, turtle; კუ; черепаха
+kʼuvz<N><VB><obl>:kʼuvze[human]                   # ladle, large wooden spoon; ციცხვი; разливательная ложка
 kʼut<N><DD><obl>:kʼute                            # muscle; soft meat; კუნთი; რბილი ხორცი; мускулы; мякоть
 kʼujmšĭ<N><BD><obl>:kʼujmši                       # quince; კომში; айва
 kʼujtʼĭ<N><DD><obl>:kʼotʼi                        # cat; კატა; кошка
+kʼunel<N><JJ><obl>:kʼunle                         # hawthorn; კუნელი; боярышник (раст.)
 kʼunʒ<N><JJ><obl>:kʼunʒe                          # tree stump, block,; კუნძი; пень
+kʼupʼr<N><JJ><obl>:kʼupʼre                        # tar, pitch; კუპრი; деготь
 kʼužr<N><JJ><obl>:kʼužre                          # knot, gnarl, burr; ნუჟრი, კოჟრი, კორძი; наплыв (на дереве)
 kʼurkʼŏ<N><JJ><obl>:kʼurkʼ[o_stem]                # acorn; რკო; желудь
 kʼutʼlamp<N><DD><obl>:kʼutʼlampe                  # oil lamp; ჭრაქი; коптилка
@@ -1483,12 +1609,16 @@ maaǯ<N><JJ><obl>:maaǯe                            # wrist; მაჯა; за�
 magalit<N><JJ><obl>:magalite                      # example; მაგალითი; пример
 mavtul<N><DD><obl>:majvtle                        # wire; მავთული; проволка
 matar<N><DD><obl>:matraj                          # flask, water bag; მათარა; кожаная фляжка
+matx<N><BD><obl>:matxi                            # sun; მზე; солнце
+mais<N><BD><obl>:majse                            # May; მაისი; май
 majmuⁿ<N><DD><obl>:majmune                        # monkey, ape; მაიმუნი; обезьяна
 majrvašŏ<N><VB><obl>:marvaše[human]               # brother-in-law. husband's brother; მაზლი; деверь
 majrjašŏ<N><JD><obl>:majrjaše[human]              # sister-in-law. husband's sister; მული; золовка
 majqĭ<N><JJ><obl>:maqo                            # bread; პური; хлеб
 makʼartʼaⁿ<N><DD><obl>:makʼartʼne                 # scissors; მაკრატელი; ножницы
+manat<N><BD><obl>:mante                           # manat; მანეთი; рубль
 mandil<N><DD><obl>:majndle                        # headscarf; მანდილი; головной платок
+mankʼ<N><J><obl>:mankʼe                           # fault, defect, flaw; მანკი, ზადი; порок (болезнь)
 mažar<N><JJ><obl>:majžre                          # flintlock gun; მაჟარი; ружьё (старинное)
 mar<N><VB><obl>:mari[human]                       # husband; ქმარი; муж
 margil<N><BD><obl>:majrgle                        # sharpened stake (for fence); მარგილი; кол (для забора)
@@ -1498,10 +1628,13 @@ marcʼqʼŏ<N><BD><obl>:marcʼqʼ[o_stem]              # strawberry; მარ�
 marxil<N><BD><obl>:majrxle                        # sledge, sleigh; მარხილი; сани
 marxŏ<N><DD><obl>:marx[o_stem]                    # Lent, fast; მარხვა; пост
 marɬŏ<N><BD><obl>:marɬ[o_stem]                    # nose; ცხვირი; нос
+masal<N><JJ><obl>:masle                           # material; მასალა; материал
 mastxov<N><VBDD><obl>:mastxove[human]             # enemy; მტერი; враг
 masor<N><DD><obl>:masri                           # Alpine chamois; ფსიტი, არჩვი; серна
 maspʼinʒel<N><VB;JD;DD><obl>:maspʼinʒle[human]    # host; მასპინძელი; хозяин (в отношении гостей)
 masr<N><DD><obl>:masre                            # cartridge; მასრა, ვაზნა; гильза
+matʼr<N><DD><obl>:matʼre                          # lunch, dinner; სადილი; обед
+maqʼol<N><BD><obl>:maqʼle                         # blackberry, bramble; მაყვალი; ежевика
 macʼ<N><BD><obl>:macʼe                            # louse; ტილი; вошь
 mačʼ<N><JJ><obl>:mačʼe                            # moustache; ულვაში; усы
 mačʼkʼatʼ<N><DD><obl>:mačʼkʼatʼe                  # pancake, flatbread; მაჭკატი, ბლინი; блин, оладьи
@@ -1520,7 +1653,10 @@ mexrĕ<N><VB><obl>:mexre[human]                    # ox herder; მეხრე;
 meǯvarĕ<N><VB><obl>:meǯvare[human]                # groom’s best man; bride’s matron of honour; მეჯვარე; шафер
 meǯogĕ<N><VB><obl>:meǯoge[human]                  # cattle-drover; მეჯოგე; табунщик
 meq<N><BD><obl>:meqe                              # couch, ottoman benc; ტახტი; тахта
+mizi<N><B><obl>:mizij                             # reason; მიზეზი; причина
 miminŏ<N><DD><obl>:mimin[o_stem]                  # hawk; მიმინო; сокол
+mitʼkʼal<N><DD><obl>:mitʼkʼle                     # calico; მიტკალი; миткаль
+mixakʼ<N><DD><obl>:mixkʼe                         # clove; მიხაკი; гвоздика
 mnatĕ<N><VB><obl>:mnate[human]                    # bellringer; მნათე; свечник
 moaxlĕ<N><JD><obl>:moaxle[human]                  # servant; მოახლე; служанка
 moaǯir<N><JJ><obl>:moaǯre                         # railing; მოაჯირი; решетка, перила (от балкона)
@@ -1532,29 +1668,45 @@ moll<N><VB><obl>:molle[human]                     # Mollah; მოლა; мул
 monastʼra<N><JJ><obl>:monastʼre                   # monastery; მონასტერი; монастырь
 mor<N><JJ><obl>:more                              # log; მორი; бревно
 morg<N><JJ><obl>:morge                            # hub, wheel center; მორგვი; ступища
+mosaval<N><JJ><obl>:mosavle                       # harvest; მოსავალი; урожай
 mosamsaxur<N><VB;JD;DD><obl>:mosamsaŭxre[human]   # servant, worker, employee; მსახური; მოსამსახურე; слуга, прислуга, служащий
 motʼtʼ<N><BD><obl>:matʼtʼi                        # tongue; language; ენა; язык
+mocʼ<N><D><obl>:macʼi                             # honey; თაფლი; мед
 mocʼmĕ<N><VB;JD;DD><obl>:mocʼme[human]            # witness; მოწმე; свидетель
+moǯamagir<N><VB;JD><obl>:mǯamajgre[human]         # hired labourer; მოჯამაგირე; батрак, наемник
 moq<N><BD><obl>:maqi                              # song, poem; სიმღერა, ლექსი; песня, стих
 moqelĕ<N><VB;JD><obl>:moqele[human]               # clerk, employee, official; მოხელე, მოსამსახურე; чиновник, служащий
+mrevl<N><JJ><obl>:mrevle                          # parish; მრევლი; приход (одной церкви)
 mutak<N><BD><obl>:mutake                          # bolster, hard pillow; მუთაქა; мутака (длинная подушка, набитая шерстью)
+muⁿ<N><J><obl>:mune                               # mange, scabies; მუნი; чесотка, парша
+murab<N><DD><obl>:murbe                           # fruit jam; მურაბა; варенье
+murqʼaⁿ<N><DD><obl>:murqʼne                       # alder(tree); მურყანი; ольха
 muğ<N><JJ><obl>:muğe                              # tail; კუდი; хвост
+muqʼ<N><BD><obl>:muqʼe                            # handle; ტარი, ვადა; рукоятка (шашки, кинжала)
 mušaɁŏ<N><DD><obl>:mušaɁ[o_stem]                  # worker; მუშა; рабочий
 muštʼar<N><DD><obl>:muštʼre                       # buyer, client; მუშტარი; покупатель
 mucʼukʼ<N><DD><obl>:mucʼkʼe                       # pimple; მუწუკი; прыщ, нарыв
+mux<N><DD><obl>:muxe                              # oak; მუხა; дуб
 muǯgaⁿ<N><JJ><obl>:muǯgne                         # clout, jolt; მუჯლუგუნი; тумак
 muħ<N><BD><obl>:maħi                              # load, burden; ტვირთი; ноша, поклажа, груз, бремя
+mujğlĭ<N><JJ><obl>:mujğle                         # horse's tail strap; საძუე; подхвостник (ремень у седла для лошади)
 mcʼeral<N><VB,JD><obl>:mcʼerle[human]             # writer; მწერალი; писатель, писарь
 mčʼedel<N><VB><obl>:mčʼedle[human]                # smith; მჭედელი; кузнец
 mʕaɁŏ<N><JJ><obl>:mʕaɁ[o_stem]                    # horn; რქა; рог
+nabad<N><BD><obl>:nabde                           # shepherd's felt cloak; ნაბადი; бурка
+nageral<N><JJ><obl>:nagerle                       # self-sown; ნაგერალი; самосайка
 nav<N><JJ><obl>:nave                              # boat, ship; ნავი; лодка
+navt<N><J><obl>:navte                             # kerosene, mineral oil; ნავთი; керосин, нефть
 nazuk<N><JJ><obl>:nazuke                          # pastry soaked in milk; ნაზუქი; сдобный хлеб
 natlob<N><DD><obl>:natlobe                        # baptism; ნათლობა; крестины
 nakʼvet<N><JJ><obl>:nakʼvete                      # plot of land, patch of land; ნაკვეთი; участок земли
 nal<N><DD><obl>:nale                              # horseshoe; ნალი; подкова
+namus<N><J><obl>:najmse                           # honour, conscience; ნამუსი; совесть
+namujral<N><JJ><obl>:namujrle                     # whirlpool; მორევი; водоворот
 namqʼeⁿ<N><JJ><obl>:namqʼne                       # grafted plant, budded plant; ნამყენი; привитый, привитое дерево
 naočʼ<N><JJ><obl>:navčʼe                          # pleat, fold; ნაოჭი; сборы (платья)
 nažtʼar<N><JJ><obl>:nažtʼre                       # shelter, lodging, hut; ბინა (ადამიანისა, საქონლისა); жилише, квартира, кутан (для скота)
+nariqʼal<N><JJ><obl>:nariqʼle                     # jetsam; ნარიყი; нанос реки
 narʒlev<N><JD><obl>:narʒleve[human]               # former daugher-in-law, former sister-in-law; ნარძლევი; бывшая невестка
 nasupral<N><DD><obl>:nasuprale                    # leftovers; ნასუფრალი; остатки (еды)
 naplet<N><JJ><obl>:naplete                        # scrap, shred; ნაფლეთი; обрывок
@@ -1564,44 +1716,69 @@ naptʼaɁŏ<N><BD><obl>:naptʼaɁ[o_stem]              # roach; ნაფოტ�
 napuʒar<N><JJ><obl>:napuʒre                       # ruined house; ნასახლარი; место, где была усадьба, жилье, постройка
 naqʼbistʼ<N><VB;JD;DD><obl>:naqʼbistʼe[human]     # friend, comrade; ამხანაგი; товарищ
 naqʼop<N><JJ><obl>:naqʼope                        # fruit; ნაყოფი; плод
+naqʼr<N><J><obl>:naqʼre                           # bite to eat, mouthful, snack; ნაყრი; немного закуски, еды
+načx<N><JJ><obl>:načxno                           # cheese; ყველი, ყველის კვერი; сыр, круг сыра
 načʼučʼ<N><JJ><obl>:načʼučʼe                      # shell; ნაჭუჭი; скорлупа
+nax<N><D><obl>:naxi                               # people; ხალხი; народ
+naxerx<N><JJ><obl>:naxerxe                        # sawn timber; sawdust; დახერხილი (ხე); ნახერხი; распиленный; опилки
 naxtujxrikʼ<N><DD><obl>:naxtujxrikʼe              # white wagtail; ბოლოქანქარა, წყალ-წყალა (ფრინვ.); трясогузка
+naxir<N><JJ><obl>:najxre                          # herd; ნახირი; стадо крупного рогатого скота
 naǯib<N><BJ><obl>:najǯbe                          # step; ნაბიჯი; шаг
+naq<N><BD><obl>:naqe                              # back of throat, palate; ხახა, სასა; глотка, гортань
 nezv<N><DD><obl>:nezve                            # breeding sow; ნეზვი; свинья (самка)
 nerg<N><JJ><obl>:nerge                            # sapling; ნერგი; саженец, рассада
 nesv<N><JJ><obl>:nesve                            # melon; ნესვი; дыня
+niav<N><BD><obl>:niave                            # breeze; ნიავი; ветерок
+nivt<N><JJ><obl>:nivte                            # thing; ნივთი; вещь
 nimuš<N><JJ><obl>:nimše                           # pattern, template, model, sample, specimen; ნიმუში; образчик, образец, модель
 nitʼtʼ<N><BD><obl>:natʼtʼri                       # nettle; ჭინჭარი; крапива
 nitʼtʼ<N><BD><obl>:natʼtʼri                       # nettle; ჭინჭარი; крапива
 niqʼ<N><BD><obl>:naqʼi                            # road; გზა; дорога, путь
+ničʼ<N><JJ><obl>:ničʼe                            # gift, talent; ნიჭი; способность, дарование, дар
+nixr<N><JJ><obl>:nixre                            # tarrif; ნიხრი; такса
+notʼqʼ<N><J><obl>:natʼqʼra                        # pus, filth, rheum; ჩირქი, წირპლი; гной
 nokar<N><VB;JD;DD><obl>:nokre[human]              # shop worker; ნოქარი; продавец
+nugeš<N><J><obl>:nugše                            # consolation, comfort; ნუგეში; утешение
 nugzur<N><DD><obl>:nugzre                         # burning log; მუგუზალი; головня
 nus<N><JD><obl>:nasi[human]                       # sister-in-law; daughter-in-law; რძალი; невестка
 nusx<N><JJ><obl>:nusxe                            # list, register, roster; ნუსხა; список, реестр
+nuš<N><JJ><obl>:nuše                              # almond; ნუში; мидаль
 ogur<N><DD><obl>:oŭgra                            # cattle reared together; ოგური; маленький гурт домашних животных, привыкших вместе пастись
 olar<N><DD><obl>:olre                             # priest's stole; ოლარი; эпитрахиль
 olokʼ<N><JJ><obl>:olkʼe                           # elbow; იდაყვი; локоть
 orkʼul<N><DD><obl>:ujrkʼle                        # ball (of wool, hemp); გორგალი (ძაფისა, კანაფის); клубок, моток нитки
 ostʼatʼ<N><VB;DD><obl>:ostʼtʼe[human]             # artisan, craftsman; ოსტატი; мастер
+okrŏ<N><DD><obl>:okro                             # gold; ოქრო; золото
 oǯax<N><JJ><obl>:oǯxe                             # family; ოჯახი; семья
 oɁ<N><BD><obl>:oɁna                               # grain, seed, kernel; მარცვალი; зерно
 pʼantʼ<N><BD><obl>:pʼantʼe                        # crab apple; მაჟალო; кислица (дикое яблоко)
 pʼanğur<N><BD><obl>:pʼajnğre                      # kick; პანღური; пинок
 pʼarakʼlis<N><DD><obl>:pʼarakʼlise                # prayer of thanksgiving; პარაკლისი; молебен
+pʼaraskʼ<N><DD><obl>:pʼaraskʼine                  # Friday; პარასკევი; пятница
 pʼasux<N><BD><obl>:pʼajsxe                        # answer; პასუხი; ответ
+pʼatʼiv<N><JJ><obl>:pʼajtʼve                      # respect; პატივი, პატივისცემა; уважение
 pʼatʼrukʼ<N><DD><obl>:pʼajtʼrkʼe                  # wick, fuse; პატრუქი; фитиль
 pʼepʼel<N><DD><obl>:pʼepʼle                       # butterfly; button; პეპელა; ღილი; бабочка; пуговица
+pʼer<N><B><obl>:pʼere                             # foam; პერი, ქაფი; пена, накипь
+pʼilpʼil<N><D><obl>:pʼilpʼile                     # (ground) pepper; პილპილი; перец
 pʼir<N><BD><obl>:pʼire                            # flock (of sheep or goat); ფარა (ცხვრისა, თხისა); стадо (овец, коз)
 pʼras<N><DD><obl>:pʼrase                          # leek; პრასა; лук порей
 pʼropʼkʼ<N><JJ><obl>:pʼrobkʼe                     # stopper, cork; traffic jam; საცობი; пробка
+pʼrocʼol<N><DD><obl>:pʼrocʼle                     # pommegranate; ბროწეულ; гарнат
 pʼʕaⁿ<N><BJ><obl>:pʼʕane                          # wing; ფრთა; крыло
 pʼʕentʼŏ<N><BJ><obl>:pʼʕentʼo                     # rib; flank, side; ნეკნი; გვერდი, წიბო; ფერდი; ребро; бок
 pʼʕerang<N><JJ><obl>:pʼʕerange                    # shirt; პერანგი; рубашка
+žabŏ<N><B><obl>:žabi                              # cow; cattle; ძროხა (ფურები და თითო-ოროლა მოზვერი, ხარი); ფურები, ძროხები; скот (корова и бычки)
+že<N><D><obl>:že                                  # sheep; ცხვარი; овцы, бараны
+raz<N><BD><obl>:raze                              # bolt, latch; რაზა; дверной крюк, щеколда
+rağ<N><J><obl>:rağe                               # time, turn; ჯერი, რიგი; очередь, ряд
 raš<N><BD><obl>:raše                              # steed (fabulous); რაში; конь (сказочный)
 račʼov<N><VB><obl>:račʼve[human]                  # Rachian; რაჭველი; рачинец
+raxtʼ<N><JJ><obl>:raxtʼe                          # decorated bridle; რახტი; сбруя
 recepʼtʼ<N><DD><obl>:recepʼtʼe                    # recipe; რეცეპტი; рецепт
 rveul<N><DD><obl>:rvivle                          # notebook; რვეული; тетрадь
 rtvel<N><JJ><obl>:rtvele                          # grape harvest, vintage; რთველი; сбор урожая винограда
+riqʼ<N><JJ><obl>:riqʼe                            # rocky river bank; რიყე; каменистый берег реки
 ročʼŏ<N><DD><obl>:ročʼ[o_stem]                    # black grouse; როჭო; тетерев
 rumb<N><DD;JJ><obl>:rumbe                         # large wine-skin; რუმბი; бурдюк
 rus<N><VB;JD><obl>:rusa[human]                    # Russian; რუსი; русский
@@ -1614,34 +1791,48 @@ sabut<N><BD><obl>:sajbte                          # argument, proog; საბ�
 sabʒel<N><DD><obl>:sabʒle                         # adobe building, wattle building; საბძელი; саманник, овин
 sabčʼŏ<N><JJ><obl>:sabčʼ[o_stem]                  # council; საბჭო; совет
 sag<N><BD><obl>:sage                              # deer; ირემი; олень
+sadalakŏ<N><JJ><obl>:sadalak[o_stem]              # barbershop; სადალაქო; цирюльня
 sadev<N><JJ><obl>:sadeva                          # reins; სადავე; поводья, вожжи
 savat<N><JJ><obl>:savte                           # great bustard; სავათი; дрофа
 saz<N><BD><obl>:saze                              # saz; საზი; саз (музык. инстр.)
 sazğvar<N><JJ><obl>:sazğvre                       # border; საზღვარი; граница
+satal<N><JJ><obl>:satle                           # smoked sturgeon fillet; სათალი; копченый бок осетрины
 sater<N><JJ><obl>:satre                           # large log; სათარი, მორი; бревно (волочимое ярмом)
 sativ<N><BD><obl>:sative                          # haystack; ზვინი; стог (сена)
+satitĕ<N><BD><obl>:satite                         # thimble; სათითე; напёрсток
 satopur<N><DD><obl>:satujpre                      # gun-port; სათოფური; амбразура
 satopur<N><DD><obl>:satopre                       # gun-port; სათოფური; амбразура
+sakʼabĕ<N><DD><obl>:sakʼabe                       # dress material; საკაბე; материя на платье
 sakʼacĕ<N><DD><obl>:sakʼace                       # stretcher; საკაცე; носилки
+sakʼenkʼ<N><JJ><obl>:sakʼenkʼe                    # feed (for birds); საკენკი; зерновой корм (для птицы)
+sakʼer<N><JJ><obl>:sakʼre                         # neck; კისერი; щея, выя
+sakʼirĕ<N><JJ><obl>:sakʼire                       # lime kiln; საკირე; творило
 sakʼlav<N><BD><obl>:sakʼlave                      # cattle to be slaughtered; საკლავი, სახორცე (საქონელი); убойный скот
+salam<N><BD><obl>:salme                           # greeting; სალამი; поклон, приветствие
 samaldĕ<N><DD><obl>:samalde                       # goat-hair twine; სამალდე, აპეური; шкворень, веревка для яремных шкворней
 samaⁿ<N><DD><obl>:samne                           # border, boundary; სამანი, მიჯნა, საზღვარი; межа, граница
+samdurav<N><BD><obl>:samdurve                     # reproach; სამდურავი; недовольство, упрек
 samelnĕ<N><JJ;DD><obl>:samelne                    # inkpot; სამელნე; чернильница
 samepŏ<N><JJ><obl>:samep[o_stem]                  # kingdom, realm; სამეფო; царство
 samzardul<N><JJ><obl>:samzardle                   # groin; საზარდული; пах
 samovar<N><DD><obl>:samovre                       # samovar; სამოვარი; самовар
+samotxĕ<N><D><obl>:samotxe                        # heaven; სამოთხე; рай
 samrekʼlŏ<N><DD><obl>:samrekʼl[o_stem]            # bell tower; სამრეკლო; колокольня
 samurvel<N><DD><obl>:samurvle                     # curry comb; სამურველი; скребница
 samuql<N><JJ><obl>:samuqle                        # trousers; underpants; შარვალი; ქვედა საცვალი; брюки, кальсоны, трусы
+samqʼuraɁŏ<N><DD><obl>:samqʼure                   # clover; სამყურა; клевер
 samčʼadĕ<N><JJ><obl>:samčʼade                     # (fire) poker; ცეცხლის საჩრეკი, ჩეკი; кочерга
 samčʼedlŏ<N><JJ><obl>:samčʼedl[o_stem]            # smithy; სამჭედლო; кузница
 sanat<N><JJ><obl>:sanate                          # (oil/gas) lamp; სანათი; светильник
 sanergĕ<N><JJ><obl>:sanerge                       # nursery for saplings; sapling; სანერგე; ნერგი; питомник; саженец
 santel<N><JJ><obl>:santle                         # candle; სანთელი; свеча, воск
+santxŏ<N><BD><obl>:santxo                         # holy, divine; საღმრთო; религиоз. празднество
+sapʼalnĕ<N><DD><obl>:sapʼalne                     # load (for pack animal); საპალნე; вьюк
 sapʼoⁿ<N><DD><obl>:sapʼne                         # soap; საპონი; мыло
 sar<N><BD><obl>:sare                              # stake, pole; სარი, ჭიგო; таркал
 sardap<N><DD><obl>:sardape                        # cellar; სარდაფი; погреб, подвал
 sartul<N><DD><obl>:sejrtle                        # floor, storey; სართული; этаж
+sarkʼmel<N><DD><obl>:sarkʼmele                    # incense; საკმეველი; ладан
 sarsaraɁŏ<N><DD><obl>:sarsraɁ[o_stem]             # little bustard; სარსარაკი; стрепен
 sarkal<N><VB><obl>:sarkle[human]                  # head shepherd; სარქალი; старший пастух, управляющий хозяйством
 sarcx<N><DD><obl>:sarcxe                          # wine-jar scouring rod; სარცხი; мутовка (для промывания кувшинов)
@@ -1650,8 +1841,12 @@ sasapʼnĕ<N><DD><obl>:sasapʼne                     # soap-dish; სასა�
 sasaxlĕ<N><DD><obl>:sasaxle                       # palace; სასახლე; дворец
 sasimindĕ<N><DD><obl>:sasiminde                   # maize-shed; სასიმინდე; кукурузник
 sasiʒŏ<N><VB><obl>:sasiʒo[human]                  # future son-in-law, future brother-in-law; სასიძო; избранный в зятья, будущий зять
+sasuk<N><J><obl>:sasuke                           # manure, fertiliser; სასუქი; удобрение
 sascʼavlebel<N><JJ><obl>:sascʼavleble             # school; სასწავლებელი; училище
 sascʼor<N><DD><obl>:sascʼori                      # scales; სასწორი; весы
+satʼacur<N><B><obl>:satʼacure                     # asparagus; სატაცური; спаржа
+sapanel<N><D><obl>:sapanle                        # seasoning; საფანელი; подболтка
+sapantʼ<N><JJ><obl>:sapantʼe                      # shot, gun pellets; საფანტი; дробь
 sapetkel<N><JJ><obl>:sapetkle                     # temple (on head); საფეთქელი; висок
 sapxekʼel<N><DD><obl>:sapxekʼle                   # grater, scraper; საფხეკელი, ასტმი; скребок
 sakatmĕ<N><DD><obl>:sakatme                       # hen-house, hen-coop; საქათმე; курятник
@@ -1664,19 +1859,26 @@ sacalŏ<N><DD><obl>:sacalo                         # big sack; საცალ�
 sacʼvrilmalŏ<N><JJ><obl>:sacʼvrilman[o_stem]      # small retail; საწვრილმანო; мелкие товары, лавка (мелких товаров)
 sacʼqʼob<N><JJ><obl>:sacʼqʼobe                    # depot; საწყობი; склад
 saxelosnŏ<N><JJ><obl>:saxelosn[o_stem]            # (artisan's) workshop; სახელოსნო; ремесленнаяж мастерская
+sejir<N><JJ><obl>:siire                           # spectacle, entertainment; სეირი; зрелище, забава, интересное происшествие
+sve<N><D><obl>:sve                                # hops; სვია; хмель
+svindis<N><J><obl>:svindu                         # conscience; სინდისი; совесть
+simind<N><DD><obl>:simindo                        # maize, corn; სიმინდი; кукуруза
 sintʼr<N><JJ><obl>:sintʼr                         # snot, mucus; წვინტლი, ცინვლი; сопля
 siʒĕ<N><VB><obl>:siʒe[human]                      # brother-in-law, son-in-law, father-in-law; სიძე; зять
 skʼa<N><JJ><obl>:skʼaj                            # beehive; სკა; улей
 skʼiv<N><JJ><obl>:skʼive                          # spark; ნაპერწკალი; искра
 skʼivr<N><BD><obl>:skʼivre                        # chest, box, trunk; სკივრი; сундук
+skʼlatʼ<N><DD><obl>:skʼlatʼu                      # cloth, broadcloth; მაუდი; сукно
 sov<N><JJ><obl>:sove                              # black vulture; სვავი; черный гриф
 sol<N><BD><obl>:sole                              # wedge; სოლი; клин
 sompxov<N><VB><obl>:sompxove[human]               # Armenian; სომეხი; армянин
 spʼilŏ<N><DD><obl>:spʼil[o_stem]                  # elephant; სპილო; слон
+spʼirtʼ<N><DD><obl>:spʼirtʼe                      # alcohol; სპირტი; спирт
 stʼakʼ<N><V><obl>:stʼakʼox                        # man; კაცი; мужчина
 stʼakaⁿ<N><DD><obl>:stʼakne                       # glass; ჭიქა; стакан
 stʼaħŏ<N><JJ><obl>:stʼaħo                         # chain; ჯაჭვი, ძეწკვი; цепь, цепочка
 stʼiur<N><DD><obl>:stʼivre                        # pipes, sheperd's pipes, bagpipes; სტვირი, სალამური; свирель
+stʼomag<N><JJ><obl>:stʼomge                       # stomach; სტომაქი; желудок
 sukʼ<N><BJ><obl>:sukʼa                            # back (of body); ზურგი; спина
 suj<N><BD><obl>:suji                              # embers; ნაკვერცხალი; горящий уголь, жар
 sxal<N><BD><obl>:sxale                            # pear; მსხალი; груша
@@ -1692,14 +1894,20 @@ tʼankʼ-tʼarkʼ<N><BD><obl>:tʼankʼtʼarkʼe           # little finger; ნ�
 tʼar<N><BJ><obl>:tʼare                            # breast, teat; ძუძუ; грудь, соски, вымя
 tʼard<N><DD><obl>:tʼarde                          # ring; ბეჭედი; перстень
 tʼarkʼ<N><BJ><obl>:tʼarkʼe                        # finger; bottleneck (of a pitcher); თითო; პირი (ჭურჭლისა); палец; горлышко (для вытекания жидкости); горлышко бурдюка
+tʼarxuⁿ<N><D><obl>:tʼarxune                       # estragon; ტარხუნა; эстрагон
 tʼax<N><BD><obl>:tʼaxe                            # boar, wild pig; ტახი, კერატი; кабан
+tʼe<N><J><obl>:tʼe                                # colostrum; ხსენი; молозиво
+tʼerkʼ<N><JJ><obl>:tʼerkʼe                        # silk-thread drawstring (for trousers); ხვანჯარი; шнур, продергиваемый в брюки, кальсоны
 tʼermometʼr<N><DD><obl>:termometʼre               # thermometer; თერმომეტრი; термометр
+tʼviⁿ<N><BD><obl>:tʼvine                          # dew; ცვარი, ნამი; роса, влага
 tʼiv<N><DD><obl>:tʼive                            # bridge, planked bridge; ხიდი, ბოგირი; мост, мостик
 tʼiv<N><DD><obl>:tʼive                            # collar-bone, clavicle; ლავიწი; ключища
 tʼilŏ<N><DD><obl>:tʼil[o_stem]                    # canvas, cloth; canvas bag; ტილო; ტილოს პარკი; холст, мешочек из холста
 tʼirip<N><DD><obl>:tʼirpa                         # willow; ტირიფი; ива
 tʼkʼipʼ<N><JJ><obl>:tʼkʼipʼe                      # tick; ტკიპი; клещ
+tʼkʼmel<N><B><obl>:tʼkʼmele                       # dust, filth; მტვერი; пыль, прох
 tʼolikʼ<N><DD><obl>:tʼujlkʼe                      # coarse felt cloak; უხეში ქეჩის ნაბადი; род грубо войлочной бурки
+tʼolm<N><DD><obl>:tʼolme                          # dolma; ტოლმა; голубцы
 tʼolč<N><BD><obl>:tʼolče                          # jug, mug; ტოლჩა; кружка
 tʼontʼrŏ<N><JJ><obl>:tʼontʼr[o_stem]              # infected discharge from eyes, rheum; წირპლი; гной (в глазах.)
 tʼotʼ<N><DJ><obl>:tʼotʼe                          # hand; paw; ხელი; თათი, ტოტი (ცხოველისა); დუცი; рука, лапа, нога (животного); агазиллис кавказский
@@ -1709,9 +1917,11 @@ tʼutʼ<N><BD><obl>:tʼutʼe                          # fly; ბუზი; му�
 tʼqʼemal<N><DD><obl>:tʼqʼemle                     # sour plum; ტყემალი; дикая алыча
 tʼqʼve<N><DD><obl>:tʼqʼve                         # prisoner, captive; ტყვე; пленник
 tʼqʼiv<N><DD><obl>:tʼqʼive                        # lead; bullet; ტყვია; свинец, пуля из свинца
+tʼqʼirpʼ<N><DD><obl>:tʼqʼirpʼe                    # spleen; ტყირპი, ელენთა; слезенка
 tʼqʼub<N><DD><obl>:tʼqʼube                        # twin; ტყუპი; близнец
 tʼʕakʼ<N><BD><obl>:tʼʕaŭkʼe                       # mud, filth; ტალახი, ლაფი; грязь
 ubaⁿ<N><JJ><obl>:ubne                             # neighbourhood; უბანი; квартал, участок
+udabnŏ<N><JJ><obl>:udabno                         # desert; უდაბნო; пустыня
 utxŏ<N><JJ><obl>:utx[o_stem]                      # piece, chunck, bit, fragment; ნაჭერი, ნატეხი; отрезок, отрезанный, отломанный кусок
 utŏ<N><DD><obl>:ut[o_stem]                        # (clothes) iron; უთო; утюг
 ulaqʼ<N><JJ><obl>:ulqʼe                           # horse; ცხენი; лошадь
@@ -1724,6 +1934,8 @@ peskʼaⁿ<N><DD><obl>:peskʼne                       # shin; წვივი; �
 peškʼar<N><DD><obl>:peškʼre                       # boy, kid; ბიჭი, ბიჭუნა, ბავშვი; мальчуган, малыш
 picar<N><DD><obl>:picre                           # plank, board; ფიცარი; доска
 potol<N><DD><obl>:potle                           # leaf; ფოთოლი; лист
+poⁿ<N><JJ><obl>:pone                              # (river) ford; ფონი; брод
+psa<N><BD><obl>:psu                               # barley; ქერი; ячмень
 psarlo<N><JJ><obl>:psarl                          # evening; საღამო; вечер
 psikʼ<N><BD><obl>:psikʼe                          # flea; რწყილი; блоха
 pstʼu<N><JD><obl>:pstʼuni[human]                  # wife; ცოლი; жена, супруга
@@ -1743,25 +1955,40 @@ pħe<N><BD><obl>:pħe                               # village; სოფელ�
 pħitʼ<N><BD><obl>:pħitʼe                          # frog; ბაყაყი; лягушка
 pħu<N><BD><obl>:pħari                             # dog; ძაღლი; собака
 kabab<N><BD><obl>:kabbe                           # kebab, cutlet; ქაბაბი, კატლეტი; котлета
+kadag<N><DD><obl>:kadge                           # preacher; seer, shaman; male first name; ქადაგი; მამაკაცის საკ. სახ.; проповедник, кликуша, кликун; мужское имя собств.
+kazdar<N><JJ><obl>:kazdre                         # earth; მიწა; земля
 kajǯberaɁŏ<N><DD><obl>:kajǯber[o_stem]            # spider; ობობა; паук
 kalvard<N><DD><obl>:kalvarde                      # lump, blister (on hand); კოპი, ბებერა; пузырь (на руке...)
+kaniz<N><JJ><obl>:kajnze                          # grape; ყურძენი; виноград
 karsaⁿ<N><JJ><obl>:karsne                         # rope; საბელი; веревка, привязь
 katʼŏ<N><BD><obl>:katʼo                           # big wooden ladle; ქიტი (ხის დიდი კოვზი); разливательная ложка (деревянная)
 kağald<N><DD><obl>:kağalde                        # paper, letter; ქაღალდი; бумага, письмо
 kač<N><BD><obl>:kač                               # collar; საყელო, კისერი; воротник,  ворот, шиворот
+kerk<N><JJ><obl>:kerke                            # bark, crust; ქერქი; кора (дерева), корка (хлеба...)
 kit<N><DD><obl>:kite                              # wineskin; ტიკი; ტიკჭორა; бурдюк
+kindlaɁŏ<N><D><obl>:kindlaɁo                      # porridge; ფაფა; мучная кашица
+kir<N><JJ><obl>:kire                              # whey; შრატი; сыворотка
+kir<N><JJ><obl>:kiru                              # whey; შრატი; сыворотка
 kotam<N><DD><obl>:kotme                           # chicken; ქათამი; курица
 kolt<N><DD><obl>:kolte                            # handle; სახელური, ტარი; ручка
+kondar<N><DD><obl>:kondre                         # savory; ქონდარი; чабер
 korcʼil<N><DD><obl>:kujrcʼle                      # wedding; ქორწილი; свадьба
+kočor<N><BD><obl>:kočre                           # Caucasian azalea; დეკა; рододендрон
 kristʼaⁿ<N><JV,DB><obl>:kristʼane                 # Christian; ქრისტიანი; христианин
+krišob<N><D><obl>:krišobe                         # Christmas and New Year; ქრისტეშობა; рождество (и новый год)
 kud<N><BD><obl>:kude                              # hat; ქუდი; шапка, фуражка
+kumel<N><JJ><obl>:kumle                           # raspberry; ჟოლო; малина
+ğa<N><DJ><obl>:ğaj                                # groin; ფერადი, საზარდული, ლაჯი; пах
 ğag<N><BD><obl>:ğage                              # pillow; სასთუმალი; изголовье
 ğalğ<N><DD><obl>:ğalğ                             # corncrake, jackdaw; ღალღა; галка
 ğaⁿ<N><DD><obl>:ğan                               # dream; სიზმარი; сон, сновидение
 ğacʼ<N><DD><obl>:ğacʼe                            # crack, scratch, stripe; ბზარი, ნაპრალი, ნაკაწრი; трещина, царапина
 ğob<N><JJ><obl>:ğobe                              # fence; ღობე; забор
+ğrutʼ<N><DD><obl>:ğrutʼe                          # hole, opening, perforation; ხვრელი, ნახვრეტი, ნაჩხვრეტი; дыра
 ğrutʼ<N><JJ><obl>:ğrutʼe                          # hole, opening, perforation; ხვრელი, ნახვრეტი, ნაჩხვრეტი; дыра
 qʼa<N><BD><obl>:qʼaj                              # sin; ცოდვა; грех
+qʼav<N><D><obl>:qʼavi                             # coffee; ყავა; кофе
+qʼar<N><JJ><obl>:qʼaro                            # rain; წვიმა; дождь
 qʼarpuz<N><JJ><obl>:qʼajrpse                      # watermelon; საზამთრო; арбуз
 qʼaqʼačŏ<N><DD><obl>:qʼaqʼč[o_stem]               # poppy; ყაყაჩო; мак
 qʼačağ<N><VB><obl>:qʼačğ[human]                   # bandit; ყაჩაღი; разбойник
@@ -1769,11 +1996,16 @@ qʼajtʼŭ<N><DD><obl>:qʼatʼne                       # sheep-shears; დუქ
 qʼoɁ<N><BD><obl>:qʼoɁe                            # crow; ყვავი; ворона
 qʼut<N><BD><obl>:qʼute                            # box; ყუთი; сундук, ящик
 qʼuqʼnaɁŏ<N><JJ><obl>:qʼuqʼnaɁ[o_stem]            # bugle, hunting horn; ბუკი, საყვირი; труба, рог
+šabat<N><DD><obl>:šabti                           # Saturday; შაბათი; суббота
 šatŏ<N><JJ><obl>:šat[o_stem]                      # saliva; დორბლი, ნერწყვი; слюна
+šar<N><DD><obl>:šare                              # buttermilk; დო; пахтанье
 švetʼ<N><JJ><obl>:švetʼe                          # whip; მათრახი, შოლტი; нагайка, кнут
+švriv<N><DD><obl>:švrive                          # oats; შვრია; овес
 šo<N><DD><obl>:šari                               # year; წელიწადი; год
+šur<N><JJ><obl>:šure                              # milk; რძე; молоко
 ča<N><BD><obl>:čj                                 # bear; დათვი; медведь
 čakʼŏ<N><DD><obl>:čakʼ[o_stem]                    # chair; სკამი; стул
+čaĭ<N><DD><obl>:čaj                               # tea; ჩაი; чай
 čila<N><JJ><obl>:čilaj                            # bosom; უბე; пазуха
 čila<N><JJ><obl>:čile                             # bosom; უბე; пазуха
 čo<N><BD><obl>:čujno                              # hair, fur, wool; ბეწვი, თმა, ბალანი; волос, шерсть (козья)
@@ -1787,6 +2019,7 @@ cʼa<N><DD><obl>:cʼeni                             # house; სახლი; д
 cʼak<N><DD><obl>:cʼake                            # arrow; ისარი; стрела
 cʼe<N><JJ><obl>:cʼari                             # be called; ჰქვია; зовут, звать
 cʼe<N><JJ><obl>:cʼari                             # fire; ცეცხლი; огонь
+cʼebŏ<N><DD><obl>:cʼeb[o_stem]                    # glue; წებო; клей
 cʼikʼ<N><JJ><obl>:cʼikʼe                          # lower leg, calf, shin; წვივი, კანჭი; голень
 cʼinus<N><JD><obl>:cʼinuse[human]                 # wife; sister-in-law, daughter-in-law; პატარძალი, რძალი; невеста, невестка
 cʼicʼil<N><DD><obl>:cʼicʼle                       # chick; წიწილა; цыпленок
@@ -1799,46 +2032,71 @@ cʼʕopʼ<N><DD><obl>:cʼʕopʼe                        # tip; point; წვე�
 čʼekʼ<N><B><obl>:čʼekʼe                           # green bean(s); სარის ლობიო, მწვანე ლობიო; зеленое лобио
 čʼivčʼ<N><BD><obl>:čʼivčʼe                        # siskin, sparrow; ჭივჭავი, ბეღურა; воробей
 čʼilqʼoɁ<N><BD><obl>:čʼilqʼoɁ                     # rook; ჭილყვავი; грач
+čʼirtʼal<N><JJ><obl>:čʼirtʼle                     # sorrel; ჭირტალი, ღოლო; дикий щавель
 čʼukʼ<N><DD><obl>:čʼukʼe                          # drinking horn; ყანწი; рог, рожок (для вина, водки)
 xa<N><DJ><obl>:xavnu                              # thigh; hip; ბარკალი; თეძო, ბარძაყი; бедро, ляжка, ножка (птицы)
+xabor<N><BD><obl>:xabro                           # mould, mildew; ობი; плесень
+xabor<N><BD><obl>:xabre                           # mould, mildew; ობი; плесень
+xalx<N><J><obl>:xalxo                             # people; ხალხი; народ
 xatʼ<N><DD><obl>:xatʼe                            # cross; ჯვარი; крест
 xeⁿ<N><BD><obl>:xene                              # tree; ხე; дерево
 xerx<N><BD><obl>:xerxe                            # saw; ხერხი; пила
 xi<N><DD><obl>:xi                                 # water; source, river, steram; წყალი, წყარო, მდინარე; вода, река, ручей, пруд
+xkʼar<N><DD><obl>:xkʼare                          # dry stone wall; ყორე; каменная стена, каменная ограда
+xkʼo<N><DD><obl>:xkʼolu                           # summer; ზაფხული; лето
+xkʼor<N><DD><obl>:xkʼore                          # bladder; შარდის ბუშტი; мочевой пузыр
+xurd<N><DD><obl>:xurde                            # (loose) change; ხურდა; мелочь (о деньгах)
 qa<N><BD><obl>:qaj                                # pig; ღორი; свинья
 qadal<N><BD><obl>:qadle                           # mare; ფაშატი ცხენი, ჭაკი ცხენი; кобыла
+qav<N><DD><obl>:qave                              # field of cereal, arable land; ყანა; нива
+qaŭpʼŭ<N><JJ><obl>:qapʼajrč;qapʼi                 # worm, maggot; მატლი; червь, личинка
 qaŭqŭ<N><BD><obl>:qaqni                           # pigeon, dove; მტრები; голубь
 qaqaⁿ<N><BD><obl>:qaqne                           # skin, hide; ტყავი; шкура
 qelob<N><DD><obl>:qelbe                           # craft, profession; ხელობა; ремесло, мастерство, професия
 qer<N><BD><obl>:qere                              # stone; ქვა; камень
 qer<N><BD><obl>:qeraj                             # stone; ქვა; камень
+qimbur<N><BD><obl>:qimbre                         # mill-hopper; ხვიმირი; мельничная деревяная чаша, откуда падает зерно под жернов для помола
 qirqal<N><JJ><obl>:qirqle                         # wooden bar across gate; ხირხალი; перекладина вместо ворот во дворе
+qo<N><JJ><obl>:q                                  # dried cow pats; წივა; кизяк
 qog<N><JJ><obl>:qoge                              # chick pea; მუხუდო ცერცვი; горох, бобы
 qor<N><BD><obl>:qore                              # apple, apple tree; ვაშლი, ვაშლის ხე; яблоко, яблоня
 qoqob<N><BD><obl>:qoqbe                           # feasant; ხოხობი; фазан
+ǯabr<N><BD><obl>:ǯabre                            # rivalry; ჯიბრი; на зло, на перекор
+ǯag<N><JJ><obl>:ǯage                              # shrub, thorn-bush; ჯაგი, ძეძვი; колючий куст, держи-дерево
 ǯagaⁿ<N><JJ><obl>:ǯagne                           # thin skewer; ჯაგანი; нанизанные на бечевку виноградные кисти для хранения
+ǯadŏ<N><DD><obl>:ǯad[o_stem]                      # magic; ჯადო; волшебство, чародейство
+ǯalab<N><JJ><obl>:ǯalbe                           # family, household; ჯალაბი; семья, семейство
 ǯambaz<N><VB;JD;DD><obl>:ǯambze[human]            # acrobat; ჯამბაზი; акробат
 ǯambar<N><JJ><obl>:ǯambre                         # strap; ჯამბარა; веревка, плетенная из ремней
+ǯang<N><DD><obl>:ǯange                            # rust; ჟანგი; ржавчина
 ǯarim<N><JJ><obl>:ǯajrme                          # fine, penalty; ჯარიმა; штраф
 ǯaǯğar<N><DD><obl>:ǯaǯğre                         # rake; ფოცხი; грабли
+ǯeǯil<N><DD><obl>:ǯeǯle                           # green corn/cereal; ჯეჯილი; всходы злачных растений
 ǯib<N><JJ><obl>:ǯibe                              # pocket; ჯიბე; карман
+ǯilag<N><JJ><obl>:ǯilgu                           # race, breed, type; ჯილაგი; порода
 ǯildŏ<N><DD><obl>:ǯild[o_stem]                    # salary, reward; bet, wager; ჯილდო; სანაძლეო; премия, награда; пари
 ǯog<N><JJ><obl>:ǯoge                              # pack, herd, flock; ჯოგი; ხროვა; табун, стая
 ǯor<N><DD><obl>:ǯore                              # cross; ჯვარი; крест
+ǯoqʼar<N><JJ><obl>:ǯoqʼre                         # dried reed; კაჭახი; стебли засохшего бурьяна
 ǯoǯŏ<N><DD><obl>:ǯoǯ[o_stem]                      # Caucasian agama lizard; ჯოჯო; жаба
 ǯub<N><JJ><obl>:ǯube                              # woman's woolen gown; ჯუბა, დედაკაცის შალის ტანსაცმელი; женское платье из шерсти
 ǯğart<N><DD><obl>:ǯğarte                          # mistle-thrush; ჩხართვი; кедровка
+hav<N><JJ><obl>:have                              # climate; ჰავა; климат
 hercʼŏ<N><DD><obl>:hercʼni                        # pot, kettle; ქვაბი; котел, кастрюля
 hikʼ<N><JJ><obl>:hikʼe                            # handle, shaft; ტარი, სახელური; ручка, рукоятка
 huv<N><DD><obl>:huve                              # seed, (fruit) stone; თესლი, კურკა; семя, косточка (фруктовая)
 ħad<N><BD><obl>:ħade                              # brain(s); ტვინი (თავისა); мозг
 ħadb<N><DD><obl>:ħadbe                            # crib, manger; ბაგა; ясли
+ħakʼ<N><DD><obl>:ħakʼe                            # forehead; შუბლი; лоб, чело
+ħankʼal<N><JJ><obl>:ħankʼle                       # dog-rose; ასკილი; шиповник
+ħağ<N><B><obl>:ħağe                               # envy, rivalry; შური, ჯიბრი, ქიშპობა; неприязнь
 ħağar<N><BD><obl>:ħağra                           # raven; ყორანი; ворон
 ħacʼukʼ<N><DD><obl>:ħajcʼkʼe                      # bird; ჩიტი, ფრინველი; птичка, птица
 ħax<N><BD><obl>:ħaxe                              # Caucasian ibex; ჯიხვი; тур
 ħex<N><JJ><obl>:ħexe                              # hollow, grotto, cave; ეხი, გამოქვაბული; пещера
 ħuⁿ<N><JJ><obl>:ħuni                              # forest; ტყე; лес
 ʕa<N><DD><obl>:ʕali                               # winter; ზამთარი; зима
+ʕa<N><J><obl>:ʕaj                                 # vapour, fume, steam; ორთქლი, ოხშივარი; пар, испарение
 ʕabikʼ<N><BD><obl>:ʕajbkʼe                        # spoon; კოვზი; ложка
 ʕokʼ<N><JJ><obl>:ʕokʼi                            # pastry filled with meat or egg and cheese; ნამცხვარი ნახევარმთვარის ფორმისა ხორცის ან ყველკვერცხის გულიანი (აცხობენ ყველიერში); рожок с начинкой из мяса или сыра и яиц
 ʕu<N><JJ><obl>:ʕui                                # night; ღამე; ночь

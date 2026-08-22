@@ -14,7 +14,7 @@ In order to use this tools you need to open a Google Colaboratory file.
 !git clone -q https://github.com/agricolamz/tsova_tush_fst_tools.git; mv tsova_tush_fst_tools/* .; rm -d tsova_tush_fst_tools; make -s requirements
 ```
 
-- In order to transcribe from mkherduli to latin (*at't'iv* means 'fate, luck')
+- In order to transcribe from mkherduli to latin you need to use the following command (*at't'iv* means 'fate, luck')
 
 ```{bash}
 !make -s mkherduli_transcription INPUT="ატტივ" 
@@ -24,7 +24,7 @@ In order to use this tools you need to open a Google Colaboratory file.
 at't'iv
 ```
 
-- In order to transcribe from latin to mkherduli (*pħe* means 'village')[^comment]
+- In order to transcribe from latin to mkherduli you need to use the following command (*pħe* means 'village')[^comment]
 
 [^comment]: You need to be aware that there are multiple ways typing ŏ, t' etc. If you have problems, copy from the transliteration section.
 
@@ -36,16 +36,16 @@ at't'iv
 ფჰ'ე
 ```
 
-- In order to gloss you need to type (I expect that *badreⁿ akʼvaⁿ* means 'child's cradle'):
+- In order to gloss you need to use the following command (*vašeⁿ korcʼil* means 'brother’s wedding'):
 
 ```{bash}
-!make -s glossing INPUT="badreⁿ akʼvaⁿ"
+!make -s glossing INPUT="vašeⁿ korcʼil"
 ```
 
 ```
-badreⁿ	bader.N.DD.obl-gen
+vašeⁿ	vašŏ.N.VB.obl-gen
 
-akʼvaⁿ	akʼvaⁿ.N.DD
+korcʼil	korcʼil.N.DD
 
 ```
 
