@@ -5,19 +5,23 @@
 PATTERNS
 
 Nouns_Abs
-Nouns_Obl[-o_stem,-u_stem] [>:>] Inflection
+Nouns_Obl[-o_stem,-u_stem] [>:>] Inflection[-lat]
+Nouns_Obl[-o_stem,-u_stem] Inflection[lat]
 (Nouns_Obl[o_stem] | Nouns_Obl[u_stem]) [:uj] [>:>] Inflection[diff_for_o_u]
-Nouns_Obl[u_stem] [u:] [>:>] Inflection[-diff_for_o_u]
-Nouns_Obl[o_stem] [o:] [>:>] Inflection[-diff_for_o_u]
+Nouns_Obl[u_stem] [u:] [>:>] Inflection[-diff_for_o_u,-lat]
+Nouns_Obl[o_stem] [o:] [>:>] Inflection[-diff_for_o_u,-lat]
+Nouns_Obl[u_stem] [u:] [>:>] Inflection[lat]
+Nouns_Obl[o_stem] [o:] [>:>] Inflection[lat]
+
 
 LEXICON Inflection
 
+<erg>:v
 <gen>:ⁿ[diff_for_o_u]
 <dat>:n[diff_for_o_u]
-<erg>:v
 <ins>:v
 <cont>:x
-<lat>:
+<lat>:[lat]
 <ad><lat>:go
 <inter><lat>:lo
 <in><lat>:i
@@ -30,14 +34,15 @@ LEXICON Inflection
 <inter>><abl>:lo>ren
 <in>><abl>:i>ren
 <trans>:ğ
-<ad>><abl>:go>ğ
-<inter>><abl>:lo>ğ
-<in>><abl>:i>ğ
+<ad>><trans>:go>ğ
+<inter>><trans>:lo>ğ
+<in>><trans>:i>ğ
 <term>:mciⁿ
-<ad>><abl>:go>mciⁿ
-<inter>><abl>:lo>mciⁿ
-<in>><abl>:i>mciⁿ
+<ad>><term>:go>mciⁿ
+<inter>><term>:lo>mciⁿ
+<in>><term>:i>mciⁿ
+<apud><lat>:guiħ
 <apud><ess>:ciⁿ
 <apud><abl>:xiⁿ
-<apud><lat>:guiħ
+
 
