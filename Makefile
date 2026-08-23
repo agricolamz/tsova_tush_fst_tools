@@ -3,10 +3,10 @@
 all: bbl_analyzer.hfstol bbl_generator.hfstol
 
 substring_search: bbl_generator.hfst
-	@echo "$(INPUT)" | hfst-regexp2fst | hfst-compose-intersect bbl_generator.hfst | hfst-invert | hfst-fst2strings | awk -f linguistic_view.awk | tr ':' '\n'
+	@echo "$(INPUT)" | hfst-regexp2fst | hfst-compose-intersect bbl_generator.hfst | hfst-invert | hfst-fst2strings | awk -f linguistic_view.awk | tr ":" "\n"
 
 glossing: bbl_analyzer.hfstol bbl_generator.hfstol
-	echo "$(INPUT)" | hfst-proc bbl_analyzer.hfstol | awk -f reformat_for_form_segmentation.awk | hfst-proc -x bbl_generator.hfstol | awk -f linguistic_view.awk
+	echo "$(INPUT)" | hfst-proc bbl_analyzer.hfstol | awk -f reformat_for_the_form_segmentation.awk | hfst-proc -x bbl_generator.hfstol | awk -f linguistic_view.awk | awk -f swap_columns.awk
 
 glossing_raw: bbl_analyzer.hfstol
 	echo "$(INPUT)" | hfst-proc -x $^ | awk -f linguistic_view.awk
