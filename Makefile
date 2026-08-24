@@ -8,6 +8,10 @@ substring_search: bbl_generator.hfst
 glossing: bbl_analyzer.hfstol bbl_generator.hfstol
 	@echo "$(INPUT)" | hfst-proc bbl_analyzer.hfstol | awk -f reformat_for_the_form_segmentation.awk | hfst-proc -x bbl_generator.hfstol | awk -f linguistic_view.awk | awk -f swap_columns.awk | column -t
 
+generation: bbl_generator.hfstol
+	@echo "$(INPUT)" | hfst-proc -x bbl_generator.hfstol | awk -f linguistic_view.awk
+
+
 raw_glossing: bbl_analyzer.hfstol
 	@echo "$(INPUT)" | hfst-proc -x $^ | awk -f linguistic_view.awk
 
