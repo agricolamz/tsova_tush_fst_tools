@@ -12,7 +12,7 @@ read_csv("data/kk_merged.csv",
   filter(!is.na(lemma_la),
          !is.na(gender_la),
          !is.na(morphology_la)) |> 
-  select(lemma_la, gender_la, morphology_la, en, ka, ru) |> 
+  select(lemma_la, gender_la, morphology_la, en, ka, ru, source) |> 
   separate(morphology_la, into = c("pl", "gen.sg"), sep = "; ") |> 
   mutate(lemma_la = str_remove_all(lemma_la, "\\d"),
          lemma_la = str_remove_all(lemma_la, "[\\[\\]]"),
@@ -82,19 +82,25 @@ result |>
   pull(result) |> 
   write_lines("bbl_nouns_lexicon.lexd", append = TRUE)
 
-# result |> 
-#   filter(!is.na(pl)) |> 
-#   mutate(transducer_lexicon_group = "Nouns_Pl",
-#          transducer_entry = str_c(lemma_la, "<N><", gender_la, "><pl>:", pl),
-#          transducer_entry = str_pad(transducer_entry, side = "right", width = 50),
-#          transducer_entry = str_c(transducer_entry, "# ", en, "; ", ka, "; ", ru)) |> 
-#   select(transducer_entry, transducer_lexicon_group) |> 
-#   na.omit() |> 
-#   mutate(transducer_lexicon_group = str_c("LEXICON ", transducer_lexicon_group)) |> 
-#   group_by(transducer_lexicon_group) |> 
-#   summarise(transducer_entry = str_c(transducer_entry, collapse = "\n")) |> 
-#   ungroup() |> 
-#   mutate(result = str_c(transducer_lexicon_group, "\n\n", transducer_entry, "\n\n")) |> 
-#   select(result) |> 
-#   pull(result) |> 
-#   write_lines("bbl_nouns_lexicon.lexd", append = TRUE)
+result |>
+  filter(!is.na(pl),
+         str_detect(pl, "\\s", negate = TRUE)) |>
+  mutate(last_segment = str_extract(pl, ".$")) |> 
+  select(lemma_la, pl, last_segment, source, en, ka, ru) |> 
+  write_csv("~/Desktop/plurals2check_with_diana.csv", na = "")
+  #View()
+  #        transducer_lexicon_group = "Nouns_Pl",
+  #        transducer_entry = str_c(lemma_la, "<N><", gender_la, "><pl>:", pl),
+  #        transducer_entry = str_pad(transducer_entry, side = "right", width = 50),
+  #        transducer_entry = str_c(transducer_entry, "# ", en, "; ", ka, "; ", ru)) |>
+  # select(transducer_entry, transducer_lexicon_group) |> 
+  # View()
+  # na.omit() |>
+  # mutate(transducer_lexicon_group = str_c("LEXICON ", transducer_lexicon_group)) |>
+  # group_by(transducer_lexicon_group) |>
+  # summarise(transducer_entry = str_c(transducer_entry, collapse = "\n")) |>
+  # ungroup() |>
+  # mutate(result = str_c(transducer_lexicon_group, "\n\n", transducer_entry, "\n\n")) |>
+  # select(result) |>
+  # pull(result) |>
+  # write_lines("bbl_nouns_lexicon.lexd", append = TRUE)

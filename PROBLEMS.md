@@ -12,4 +12,4 @@
 
 - I used Diana Kakashvili's dictionary for obtaining information about the gender in order to correctly match the ergatve case (*-v* vs *-s*), however this information should be checked and sometimes reannotated in a dictionary.
 
-- There is a rule of a pharyngeal deletion (Wichers Schreur 2025: 49) however I provided both version with deletion and without it (as Nicola Lampitelli asked me on 22.08.2026).
+- There is a rule of a pharyngeal deletion (Wichers Schreur 2025: 49). Transducer works with the surface form, so for now you will need to add finaly deleted *ħ* in essives by hand.

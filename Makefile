@@ -6,10 +6,10 @@ substring_search: bbl_generator.hfst
 	@echo "$(INPUT)" | hfst-regexp2fst | hfst-compose-intersect bbl_generator.hfst | hfst-invert | hfst-fst2strings | awk -f linguistic_view.awk | tr ":" "\n"
 
 glossing: bbl_analyzer.hfstol bbl_generator.hfstol
-	echo "$(INPUT)" | hfst-proc bbl_analyzer.hfstol | awk -f reformat_for_the_form_segmentation.awk | hfst-proc -x bbl_generator.hfstol | awk -f linguistic_view.awk | awk -f swap_columns.awk
+	@echo "$(INPUT)" | hfst-proc bbl_analyzer.hfstol | awk -f reformat_for_the_form_segmentation.awk | hfst-proc -x bbl_generator.hfstol | awk -f linguistic_view.awk | awk -f swap_columns.awk | column -t
 
-glossing_raw: bbl_analyzer.hfstol
-	echo "$(INPUT)" | hfst-proc -x $^ | awk -f linguistic_view.awk
+raw_glossing: bbl_analyzer.hfstol
+	@echo "$(INPUT)" | hfst-proc -x $^ | awk -f linguistic_view.awk
 
 bbl_%.hfstol: bbl_%.hfst
 	hfst-fst2fst -O $< -o $@
@@ -36,10 +36,10 @@ bbl_%.lexd: bbl_%_formation.lexd bbl_%_lexicon.lexd
 	cat $^ > $@
 
 latin_transcription: la2mkh.awk
-	echo "$(INPUT)" | awk -f $^
+	@echo "$(INPUT)" | awk -f $^
 
 mkherduli_transcription: mkh2la.awk
-	echo "$(INPUT)" | awk -f $^
+	@echo "$(INPUT)" | awk -f $^
 
 clean:
 	rm -f *.hfst *.hfstol
