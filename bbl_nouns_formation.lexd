@@ -15,10 +15,8 @@ Nouns_Obl[o_stem,human] [:o] (([>:>] Inflection[-diff_for_o_u,-null_morphemes,-n
 Nouns_Pl
 Nouns_Pl_Obl[i] [:i] (([>:>] Inflection[-null_morphemes,-human,-in]) | (Inflection[null_morphemes]))
 Nouns_Pl_Obl[no_vowel] (([>:>] Inflection[-null_morphemes,-human,-in]) | (Inflection[null_morphemes]))
-
 Nouns_Pl_Obl[o] [:ui] (([>:>] Inflection[-null_morphemes,-human,-in]) | (Inflection[null_morphemes]))
 Nouns_Pl_Obl[r] [:re] (([>:>] Inflection[-null_morphemes,-human,-in_for_ij_stems]) | (Inflection[null_morphemes,-in_for_ij_stems]))
-
 Nouns_Pl_Obl[consonant] [:a] (([>:>] Inflection[-null_morphemes,-human]) | (Inflection[null_morphemes]))
 Nouns_Pl_Obl[-r] [:a] [>:>] Inflection[pl_a]
 
