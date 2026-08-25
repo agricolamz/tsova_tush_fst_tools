@@ -316,6 +316,7 @@ LEXICON Pronoun
 <dist><pl>><in><trans>:oqar>ğ
 <dist><pl>><in><term>:oqar>mciⁿ
 <1><sg><poss><abs>:seⁿ
+<1><sg><poss><abs>:se
 <1><sg><poss><erg>:sečo>v
 <1><sg><poss>><dat>:sečo>n
 <1><sg><poss>><gen>:sečo>ⁿ
@@ -339,6 +340,7 @@ LEXICON Pronoun
 <1><sg><poss>><apud><ess>:sečo>ciⁿ
 <1><sg><poss>><apud><abl>:sečo>xiⁿ
 <2><sg><poss><abs>:ħajⁿ
+<2><sg><poss><abs>:ħaj
 <2><sg><poss><erg>:ħajčo>v
 <2><sg><poss>><dat>:ħajčo>n
 <2><sg><poss>><gen>:ħajčo>ⁿ
@@ -362,6 +364,7 @@ LEXICON Pronoun
 <2><sg><poss>><apud><ess>:ħajčo>ciⁿ
 <2><sg><poss>><apud><abl>:ħajčo>xiⁿ
 <2><sg><poss><abs>:ħeⁿ
+<2><sg><poss><abs>:ħe
 <2><sg><poss><erg>:ħečo>v
 <2><sg><poss>><dat>:ħečo>n
 <2><sg><poss>><gen>:ħečo>ⁿ
@@ -385,6 +388,7 @@ LEXICON Pronoun
 <2><sg><poss>><apud><ess>:ħečo>ciⁿ
 <2><sg><poss>><apud><abl>:ħečo>xiⁿ
 <1><pl><excl><poss><abs>:txeⁿ
+<1><pl><excl><poss><abs>:txe
 <1><pl><excl><poss><erg>:txečo>v
 <1><pl><excl><poss>><dat>:txečo>n
 <1><pl><excl><poss>><gen>:txečo>ⁿ
@@ -408,6 +412,7 @@ LEXICON Pronoun
 <1><pl><excl><poss>><apud><ess>:txečo>ciⁿ
 <1><pl><excl><poss>><apud><abl>:txečo>xiⁿ
 <1><pl><incl><poss><abs>:veⁿ
+<1><pl><incl><poss><abs>:ve
 <1><pl><incl><poss><erg>:večo>v
 <1><pl><incl><poss>><dat>:večo>n
 <1><pl><incl><poss>><gen>:večo>ⁿ
@@ -431,6 +436,7 @@ LEXICON Pronoun
 <1><pl><incl><poss>><apud><ess>:večo>ciⁿ
 <1><pl><incl><poss>><apud><abl>:večo>xiⁿ
 <1><pl><incl><poss><abs>:vajⁿ
+<1><pl><incl><poss><abs>:vaj
 <1><pl><incl><poss><erg>:vajčo>v
 <1><pl><incl><poss>><dat>:vajčo>n
 <1><pl><incl><poss>><gen>:vajčo>ⁿ
@@ -454,6 +460,7 @@ LEXICON Pronoun
 <1><pl><incl><poss>><apud><ess>:vajčo>ciⁿ
 <1><pl><incl><poss>><apud><abl>:vajčo>xiⁿ
 <2><pl><poss><abs>:šuⁿ
+<2><pl><poss><abs>:šu
 <2><pl><poss><erg>:šučo>v
 <2><pl><poss>><dat>:šučo>n
 <2><pl><poss>><gen>:šučo>ⁿ
