@@ -41,11 +41,11 @@ LEXICON Inflection
 <inter><ess>:lo
 <in><ess>:i[in]
 <in><ess>:[in_for_ij_stems,null_morphemes]
-<abl>:ren
-<ad>><abl>:go>ren
-<inter>><abl>:lo>ren
-<in>><abl>:i>ren[in]
-<in><abl>:ren[in_for_ij_stems]
+<abl>:reⁿ
+<ad>><abl>:go>reⁿ
+<inter>><abl>:lo>reⁿ
+<in>><abl>:i>reⁿ[in]
+<in><abl>:reⁿ[in_for_ij_stems]
 <trans>:ğ
 <ad>><trans>:go>ğ
 <inter>><trans>:lo>ğ
