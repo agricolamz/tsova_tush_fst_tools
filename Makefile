@@ -3,7 +3,7 @@
 all: bbl_analyzer.hfstol bbl_generator.hfstol
 
 substring_search: bbl_generator.hfst
-	@echo "$(INPUT)" | hfst-regexp2fst | hfst-compose-intersect bbl_generator.hfst | hfst-invert | hfst-fst2strings | awk -f linguistic_view.awk | tr ":" "\n"
+	@echo "$(INPUT)" | hfst-regexp2fst | hfst-compose-intersect bbl_generator.hfst | hfst-invert | hfst-fst2strings | awk -f linguistic_view.awk | column -t -s ":" | sort
 
 glossing: bbl_analyzer.hfstol bbl_generator.hfstol
 	@echo "$(INPUT)" | hfst-proc bbl_analyzer.hfstol | awk -f reformat_for_the_form_segmentation.awk | hfst-proc -x bbl_generator.hfstol | awk -f linguistic_view.awk | awk -f swap_columns.awk | column -t
@@ -24,8 +24,8 @@ bbl_analyzer.hfst: bbl_generator.hfst remove_hyphen.hfst
 remove_hyphen.hfst: remove_hyphen.twol
 	hfst-twolc -q $< -o $@
 
-bbl_generator.hfst: bbl_nouns.hfst
-	cp bbl_nouns.hfst $@
+bbl_generator.hfst: bbl_nouns.hfst bbl_pronouns.hfst
+	hfst-union bbl_nouns.hfst bbl_pronouns.hfst -o $@
 
 bbl_%_merged.hfst: bbl_%.hfst bbl_%_twol.hfst
 	hfst-compose-intersect $^ -o $@

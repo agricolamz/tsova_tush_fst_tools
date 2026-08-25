@@ -49,7 +49,7 @@ read_csv("data/kk_merged.csv",
 
 result |> 
   mutate(transducer_lexicon_group = "Nouns_Abs",
-         transducer_entry = str_c(lemma_la, "<N><", gender_la, ">:", lemma_la),
+         transducer_entry = str_c(lemma_la, "<N><", gender_la, "><abs>:", lemma_la),
          transducer_entry = str_pad(transducer_entry, side = "right", width = 50),
          transducer_entry = str_c(transducer_entry, "# ", en, "; ", ka, "; ", ru)) |> 
   select(transducer_entry, transducer_lexicon_group) |> 
@@ -82,24 +82,45 @@ result |>
   pull(result) |> 
   write_lines("bbl_nouns_lexicon.lexd", append = TRUE)
 
+# result |>
+#   filter(!is.na(pl),
+#          str_detect(pl, "\\s", negate = TRUE)) |>
+#   mutate(last_segment = str_extract(pl, ".$"),
+#          pl_last_segment = str_extract(pl, ".$")) |> 
+#   select(lemma_la, pl, pl_last_segment, source, en, ka, ru) |> 
+#   write_csv("~/Desktop/plurals2check_with_diana.csv", na = "")
+
 result |>
   filter(!is.na(pl),
          str_detect(pl, "\\s", negate = TRUE)) |>
-  mutate(last_segment = str_extract(pl, ".$"),
-         pl_last_segment = str_extract(pl, ".$")) |> 
-  select(lemma_la, pl, pl_last_segment, source, en, ka, ru) |> 
-  write_csv("~/Desktop/plurals2check_with_diana.csv", na = "")
+  mutate(transducer_lexicon_group = "Nouns_Pl",
+         transducer_entry = str_c(lemma_la, "<N><", gender_la, "><abs><pl>:", pl),
+         transducer_entry = str_pad(transducer_entry, side = "right", width = 50),
+         transducer_entry = str_c(transducer_entry, "# ", en, "; ", ka, "; ", ru)) |> 
+  select(transducer_entry, transducer_lexicon_group)  |> 
+  mutate(transducer_lexicon_group = str_c("LEXICON ", transducer_lexicon_group)) |> 
+  na.omit() |> 
+  group_by(transducer_lexicon_group) |> 
+  summarise(transducer_entry = str_c(transducer_entry, collapse = "\n")) |> 
+  ungroup() |> 
+  mutate(result = str_c(transducer_lexicon_group, "\n\n", transducer_entry, "\n\n")) |> 
+  select(result) |> 
+  pull(result) |> 
+  write_lines("bbl_nouns_lexicon.lexd", append = TRUE)
 
 result |>
   filter(!is.na(pl),
          str_detect(pl, "\\s", negate = TRUE)) |>
   mutate(last_segment = str_extract(pl, ".$"),
          pl_last_segment = str_extract(pl, ".$"),
-         declension_class = if_else(str_detect(pl_last_segment, "[ĭŏi]"),
-                                    "",
-                                    "[consonant]"),
-         transducer_lexicon_group = "Nouns_Pl",
+         declension_class = case_when(str_detect(pl_last_segment, "[ĭi]") ~ "[i]",
+                                      str_detect(pl_last_segment, "ŏ") ~ "[o]",
+                                      str_detect(pl_last_segment, "j") ~ "[no_vowel]",
+                                      str_detect(pl_last_segment, "r") ~ "[r]",
+                                      TRUE ~ "[consonant]"),
+         transducer_lexicon_group = "Nouns_Pl_Obl",
          pl = str_remove(pl, "[iĭŏ]$"),
+         pl = str_remove(pl, "([ae]r)$"),
          transducer_entry = str_c(lemma_la, "<N><", gender_la, "><pl>:", pl, declension_class),
          transducer_entry = str_pad(transducer_entry, side = "right", width = 50),
          transducer_entry = str_c(transducer_entry, "# ", en, "; ", ka, "; ", ru)) |> 

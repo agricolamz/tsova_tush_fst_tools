@@ -12,11 +12,16 @@ Nouns_Obl[u_stem,-human] [:u] (([>:>] Inflection[-diff_for_o_u,-null_morphemes,-
 Nouns_Obl[o_stem,-human] [:o] (([>:>] Inflection[-diff_for_o_u,-null_morphemes,-human]) | (Inflection[null_morphemes]))
 Nouns_Obl[u_stem,human] [:u] (([>:>] Inflection[-diff_for_o_u,-null_morphemes,-nonhuman]) | (Inflection[null_morphemes]))
 Nouns_Obl[o_stem,human] [:o] (([>:>] Inflection[-diff_for_o_u,-null_morphemes,-nonhuman]) | (Inflection[null_morphemes]))
-Nouns_Pl[-consonant] [:i]
-Nouns_Pl[consonant]
-Nouns_Pl[-consonant] [:i] (([>:>] Inflection[-null_morphemes,-human]) | (Inflection[null_morphemes]))
-Nouns_Pl[consonant] [:a] (([>:>] Inflection[-null_morphemes,-human]) | (Inflection[null_morphemes]))
-Nouns_Pl [:a] [>:>] Inflection[pl_a]
+Nouns_Pl
+Nouns_Pl_Obl[i] [:i] (([>:>] Inflection[-null_morphemes,-human,-in]) | (Inflection[null_morphemes]))
+Nouns_Pl_Obl[no_vowel] (([>:>] Inflection[-null_morphemes,-human,-in]) | (Inflection[null_morphemes]))
+
+Nouns_Pl_Obl[o] [:ui] (([>:>] Inflection[-null_morphemes,-human,-in]) | (Inflection[null_morphemes]))
+Nouns_Pl_Obl[r] [:re] (([>:>] Inflection[-null_morphemes,-human,-in_for_ij_stems]) | (Inflection[null_morphemes,-in_for_ij_stems]))
+
+Nouns_Pl_Obl[consonant] [:a] (([>:>] Inflection[-null_morphemes,-human]) | (Inflection[null_morphemes]))
+Nouns_Pl_Obl[-r] [:a] [>:>] Inflection[pl_a]
+
 
 LEXICON Inflection
 
@@ -29,23 +34,28 @@ LEXICON Inflection
 <lat>:[null_morphemes]
 <ad><lat>:gŏ
 <inter><lat>:lŏ
-<in><lat>:i
+<in><lat>:i[in]
+<in><lat>:[in_for_ij_stems,null_morphemes]
 <ess>:[null_morphemes]
 <ad><ess>:go
 <inter><ess>:lo
-<in><ess>:i
+<in><ess>:i[in]
+<in><ess>:[in_for_ij_stems,null_morphemes]
 <abl>:ren
 <ad>><abl>:go>ren
 <inter>><abl>:lo>ren
-<in>><abl>:i>ren
+<in>><abl>:i>ren[in]
+<in><abl>:ren[in_for_ij_stems]
 <trans>:ğ
 <ad>><trans>:go>ğ
 <inter>><trans>:lo>ğ
-<in>><trans>:i>ğ
+<in>><trans>:i>ğ[in]
+<in><trans>:ğ[in_for_ij_stems]
 <term>:mciⁿ
 <ad>><term>:go>mciⁿ
 <inter>><term>:lo>mciⁿ
 <in>><term>:i>mciⁿ
+<in><term>:mciⁿ[in_for_ij_stems]
 <apud><lat>:guiħ
 <apud><ess>:ciⁿ
 <apud><abl>:xiⁿ
